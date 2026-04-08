@@ -2,123 +2,194 @@
 <html lang="sr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>🏔 Planinarske rute Srbije</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', sans-serif; display: flex; height: 100vh; overflow: hidden; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', sans-serif; display: flex; height: 100dvh; overflow: hidden; }
+
+/* ═══════ SIDEBAR ═══════ */
+#sidebar {
+  width: 340px; min-width: 280px; height: 100dvh;
+  background: #1a1a2e; color: #e0e0e0;
+  display: flex; flex-direction: column; overflow: hidden;
+  box-shadow: 3px 0 15px rgba(0,0,0,0.4); z-index: 1000;
+  transition: transform .3s ease;
+}
+#sidebar-header {
+  padding: 14px 16px; background: #16213e;
+  border-bottom: 1px solid #0f3460; flex-shrink: 0;
+  display: flex; align-items: center; gap: 8px;
+}
+#sidebar-header h1 { font-size: 14px; color: #e0e0e0; flex: 1; }
+#sidebar-header .subtitle { font-size: 11px; color: #8892a4; }
+#close-btn {
+  display: none; background: none; border: none;
+  color: #8892a4; font-size: 20px; cursor: pointer; padding: 0 4px;
+}
+
+#filters {
+  padding: 10px 12px; border-bottom: 1px solid #0f3460;
+  background: #16213e; overflow-y: auto; flex-shrink: 0;
+}
+.filter-label {
+  font-size: 10px; color: #8892a4; text-transform: uppercase;
+  letter-spacing: .5px; margin: 7px 0 3px;
+}
+#search-box {
+  width: 100%; padding: 7px 10px; border-radius: 6px;
+  border: 1px solid #0f3460; background: #0f3460;
+  color: #e0e0e0; font-size: 12px; margin-bottom: 6px; outline: none;
+}
+#search-box::placeholder { color: #5a6a7a; }
+select.flt {
+  width: 100%; padding: 6px 8px; border-radius: 6px;
+  border: 1px solid #0f3460; background: #0f3460;
+  color: #e0e0e0; font-size: 12px; outline: none; margin-bottom: 6px;
+}
+#diff-btns { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 6px; }
+.diff-btn {
+  padding: 3px 9px; border-radius: 10px; border: 2px solid transparent;
+  font-size: 10px; cursor: pointer; font-weight: 600; transition: opacity .15s;
+}
+.diff-btn.off { opacity: 0.25; }
+#len-display { font-size: 11px; color: #8892a4; text-align: right; margin-bottom: 2px; }
+#len-slider { width: 100%; accent-color: #4CAF50; }
+
+/* Viewport indicator */
+#viewport-info {
+  padding: 5px 12px; background: #0f3460; font-size: 11px; color: #8892a4;
+  border-bottom: 1px solid #16213e; flex-shrink: 0; display: none;
+}
+#viewport-info span { color: #4CAF50; font-weight: 600; }
+
+/* Load progress */
+#load-bar-wrap {
+  padding: 6px 12px; background: #16213e;
+  border-bottom: 1px solid #0f3460; flex-shrink: 0; display: none;
+}
+#load-bar-label { font-size: 10px; color: #8892a4; margin-bottom: 3px; }
+#load-bar-track { height: 3px; background: #0f3460; border-radius: 2px; overflow: hidden; }
+#load-bar-fill  { height: 100%; width: 0; background: #27ae60; transition: width .2s; }
+
+/* Route list */
+#route-list { flex: 1; overflow-y: auto; overscroll-behavior: contain; }
+#route-list::-webkit-scrollbar { width: 4px; }
+#route-list::-webkit-scrollbar-track { background: #1a1a2e; }
+#route-list::-webkit-scrollbar-thumb { background: #0f3460; border-radius: 2px; }
+.route-item {
+  padding: 9px 14px; border-bottom: 1px solid #0f3460;
+  cursor: pointer; transition: background .15s; border-left: 3px solid transparent;
+}
+.route-item:hover  { background: #16213e; }
+.route-item.active { background: #0f3460; border-left-color: #4CAF50; }
+.route-name {
+  font-size: 12px; font-weight: 600; color: #d0d8e4; margin-bottom: 3px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.route-meta { font-size: 11px; color: #5a6a7a; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.tag { padding: 1px 5px; border-radius: 8px; font-size: 10px; font-weight: 600; }
+.tag-src { background: #1a2a4a; color: #5b9bd5; }
+.no-results { padding: 20px; text-align: center; color: #5a6a7a; font-size: 12px; }
+
+/* ═══════ MAP ═══════ */
+#map { flex: 1; height: 100dvh; }
+
+/* ═══════ MOBILE TOGGLE ═══════ */
+#mob-toggle {
+  display: none;
+  position: fixed; bottom: 20px; right: 20px;
+  width: 52px; height: 52px; border-radius: 50%;
+  background: #1a1a2e; border: 2px solid #4CAF50;
+  color: #4CAF50; font-size: 22px; cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  align-items: center; justify-content: center;
+  z-index: 2000; transition: transform .2s;
+}
+#mob-toggle:active { transform: scale(0.92); }
+
+/* ═══════ POPUP ═══════ */
+.leaflet-popup-content-wrapper {
+  background: #16213e; color: #e0e0e0; border-radius: 10px;
+  border: 1px solid #0f3460; font-family: 'Segoe UI', sans-serif; min-width: 210px;
+}
+.leaflet-popup-tip { background: #16213e; }
+.popup-title  { font-weight: 700; font-size: 13px; margin-bottom: 7px; color: #fff; }
+.popup-row    { font-size: 11px; margin-bottom: 3px; color: #8892a4; }
+.popup-row span { color: #d0d8e4; }
+.popup-links  { margin-top: 8px; display: flex; gap: 7px; flex-wrap: wrap; }
+.popup-link   { padding: 4px 10px; border-radius: 6px; font-size: 11px; text-decoration: none; font-weight: 600; }
+.popup-link.gpx    { background: #27ae60; color: #fff; }
+.popup-link.detail { background: #0f3460; color: #5b9bd5; border: 1px solid #5b9bd5; }
+
+/* ═══════ RESPONSIVE — Mobile ═══════ */
+@media (max-width: 767px) {
+  body { flex-direction: column; }
 
   #sidebar {
-    width: 340px; min-width: 280px; height: 100vh;
-    background: #1a1a2e; color: #e0e0e0;
-    display: flex; flex-direction: column; overflow: hidden;
-    box-shadow: 3px 0 15px rgba(0,0,0,0.4); z-index: 1000;
+    position: fixed; bottom: 0; left: 0; right: 0; top: auto;
+    width: 100%; height: 60dvh; min-width: unset;
+    border-radius: 16px 16px 0 0;
+    transform: translateY(100%);
+    box-shadow: 0 -4px 20px rgba(0,0,0,0.5);
   }
-  #sidebar-header { padding: 16px; background: #16213e; border-bottom: 1px solid #0f3460; }
-  #sidebar-header h1 { font-size: 15px; color: #e0e0e0; margin-bottom: 2px; }
-  #sidebar-header .subtitle { font-size: 11px; color: #8892a4; }
+  #sidebar.mob-open { transform: translateY(0); }
 
-  #filters {
-    padding: 12px; border-bottom: 1px solid #0f3460; background: #16213e;
-    overflow-y: auto; max-height: 52vh;
+  /* Drag handle */
+  #sidebar-header::before {
+    content: '';
+    display: block; width: 36px; height: 4px;
+    background: #3a3a5a; border-radius: 2px;
+    margin: 0 auto 8px; flex-shrink: 0;
   }
-  .filter-label {
-    font-size: 11px; color: #8892a4; text-transform: uppercase;
-    letter-spacing: .5px; margin: 8px 0 4px;
-  }
-  #search-box {
-    width: 100%; padding: 7px 10px; border-radius: 6px;
-    border: 1px solid #0f3460; background: #0f3460;
-    color: #e0e0e0; font-size: 12px; margin-bottom: 8px; outline: none;
-  }
-  #search-box::placeholder { color: #5a6a7a; }
-  select.flt {
-    width: 100%; padding: 6px 8px; border-radius: 6px;
-    border: 1px solid #0f3460; background: #0f3460;
-    color: #e0e0e0; font-size: 12px; outline: none; margin-bottom: 8px;
-  }
-  #diff-btns { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 8px; }
-  .diff-btn {
-    padding: 4px 10px; border-radius: 12px; border: 2px solid transparent;
-    font-size: 11px; cursor: pointer; font-weight: 600; transition: opacity .15s;
-  }
-  .diff-btn.off { opacity: 0.25; }
-  #len-display { font-size: 11px; color: #8892a4; text-align: right; margin-bottom: 3px; }
-  #len-slider { width: 100%; accent-color: #4CAF50; }
+  #sidebar-header { flex-wrap: wrap; }
+  #close-btn { display: block; }
 
-  /* Loading progress bar */
-  #load-bar-wrap {
-    padding: 8px 12px; background: #16213e; border-bottom: 1px solid #0f3460;
-    display: none;
-  }
-  #load-bar-label { font-size: 10px; color: #8892a4; margin-bottom: 4px; }
-  #load-bar-track { height: 4px; background: #0f3460; border-radius: 2px; overflow: hidden; }
-  #load-bar-fill  { height: 100%; width: 0%; background: #27ae60; transition: width .2s; border-radius: 2px; }
+  #map { width: 100%; height: 100dvh; flex: none; }
+  #mob-toggle { display: flex; }
 
-  #route-list { flex: 1; overflow-y: auto; }
-  #route-list::-webkit-scrollbar { width: 5px; }
-  #route-list::-webkit-scrollbar-track { background: #1a1a2e; }
-  #route-list::-webkit-scrollbar-thumb { background: #0f3460; border-radius: 3px; }
+  /* Kompaktniji filteri na mobilnom */
+  #filters { max-height: 35dvh; }
+  select.flt { font-size: 13px; padding: 8px; }
+  #search-box { font-size: 13px; }
+  .route-item { padding: 11px 14px; }
+  .route-name { font-size: 13px; }
+}
 
-  .route-item {
-    padding: 10px 14px; border-bottom: 1px solid #0f3460;
-    cursor: pointer; transition: background .15s; border-left: 3px solid transparent;
-  }
-  .route-item:hover  { background: #16213e; }
-  .route-item.active { background: #0f3460; border-left-color: #4CAF50; }
-  .route-name {
-    font-size: 12px; font-weight: 600; color: #d0d8e4; margin-bottom: 3px;
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  }
-  .route-meta { font-size: 11px; color: #5a6a7a; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
-  .tag { padding: 1px 6px; border-radius: 8px; font-size: 10px; font-weight: 600; }
-  .tag-src { background: #1a2a4a; color: #5b9bd5; }
-  .no-results { padding: 20px; text-align: center; color: #5a6a7a; font-size: 12px; }
-
-  #map { flex: 1; height: 100vh; }
-
-  /* Popup dark theme */
-  .leaflet-popup-content-wrapper {
-    background: #16213e; color: #e0e0e0; border-radius: 10px;
-    border: 1px solid #0f3460; font-family: 'Segoe UI', sans-serif; min-width: 220px;
-  }
-  .leaflet-popup-tip { background: #16213e; }
-  .popup-title  { font-weight: 700; font-size: 13px; margin-bottom: 8px; color: #fff; }
-  .popup-row    { font-size: 11px; margin-bottom: 3px; color: #8892a4; }
-  .popup-row span { color: #d0d8e4; }
-  .popup-links  { margin-top: 8px; display: flex; gap: 8px; }
-  .popup-link   { padding: 4px 10px; border-radius: 6px; font-size: 11px; text-decoration: none; font-weight: 600; }
-  .popup-link.gpx    { background: #27ae60; color: #fff; }
-  .popup-link.detail { background: #0f3460; color: #5b9bd5; border: 1px solid #5b9bd5; }
+@media (min-width: 768px) and (max-width: 1024px) {
+  #sidebar { width: 300px; }
+}
 </style>
 </head>
 <body>
 
+<!-- Sidebar -->
 <div id="sidebar">
   <div id="sidebar-header">
-    <h1>🏔 Planinarske rute Srbije</h1>
-    <div class="subtitle" id="stats">Učitavanje...</div>
+    <div style="flex:1">
+      <h1>🏔 Planinarske rute Srbije</h1>
+      <div class="subtitle" id="stats">Učitavanje...</div>
+    </div>
+    <button id="close-btn" onclick="closeSidebar()" title="Zatvori">✕</button>
   </div>
 
   <div id="filters">
     <input id="search-box" placeholder="🔍 Pretraži po imenu..." oninput="applyFilters()">
 
     <div class="filter-label">Region</div>
-    <select class="flt" id="flt-region" onchange="populatePlanina(); applyFilters()">
+    <select class="flt" id="flt-region" onchange="populatePlanina(); applyFilters(true)">
       <option value="">Svi regioni</option>
     </select>
 
     <div class="filter-label">Planina / predeo</div>
-    <select class="flt" id="flt-planina" onchange="applyFilters()">
+    <select class="flt" id="flt-planina" onchange="applyFilters(true)">
       <option value="">Sve planine</option>
     </select>
 
     <div class="filter-label">Izvor</div>
     <select class="flt" id="flt-izvor" onchange="applyFilters()">
       <option value="">Svi izvori</option>
-      <option value="PSS">Planinarski savez Srbije</option>
-      <option value="Staze i Bogaze">Staze i Bogaze</option>
     </select>
 
     <div class="filter-label">Težina</div>
@@ -130,7 +201,10 @@
            oninput="updateLenDisplay(); applyFilters()">
   </div>
 
-  <!-- GPX loading progress -->
+  <div id="viewport-info">
+    Vidokrug mape: <span id="viewport-count">–</span> ruta
+  </div>
+
   <div id="load-bar-wrap">
     <div id="load-bar-label">Učitavam GPX fajlove...</div>
     <div id="load-bar-track"><div id="load-bar-fill"></div></div>
@@ -139,20 +213,25 @@
   <div id="route-list"></div>
 </div>
 
+<!-- Map -->
 <div id="map"></div>
+
+<!-- Mobile toggle -->
+<button id="mob-toggle" onclick="toggleSidebar()" title="Lista ruta">☰</button>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 // ── State ──
-let allRoutes    = [];   // sve rute iz routes.json
-let filteredIdxs = [];   // indeksi vidljivih ruta u allRoutes
-let polylines    = [];   // polyline[i] odgovara allRoutes[i], null ako nema GPX
+let allRoutes    = [];
+let filteredIdxs = [];    // rute koje prolaze filtere
+let viewportIdxs = [];    // subset filteredIdxs vidljiv u mapi
+let polylines    = [];
 let activeDiffs  = new Set();
-let selectedIdx  = null; // index u allRoutes trenutno selektovane rute
-let gpxLoaded    = 0;    // koliko GPX-ova je pokušano
+let selectedIdx  = null;
+let gpxLoadDone  = 0;
 
 // ── Boje ──
-const KNOWN_COLORS = {
+const DIFF_COLORS = {
   "laka":       "#27ae60",
   "zahtevna":   "#f39c12",
   "teška":      "#e74c3c",
@@ -160,23 +239,26 @@ const KNOWN_COLORS = {
   "vrlo teška": "#c0392b",
   "vrlo teska": "#c0392b",
 };
-function colorFor(t) {
-  return KNOWN_COLORS[(t || "").toLowerCase()] || "#7f8c8d";
-}
+function colorFor(t) { return DIFF_COLORS[(t||"").toLowerCase()] || "#7f8c8d"; }
 
 // ── Mapa ──
-const map = L.map("map").setView([44.0, 21.0], 7);
+const map = L.map("map", { zoomControl: true }).setView([44.0, 21.0], 7);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution: "© OpenStreetMap contributors", maxZoom: 18,
+  attribution: "© OpenStreetMap", maxZoom: 19,
 }).addTo(map);
 
-// ── Helper ──
-function escHtml(s) {
-  return String(s || "").replace(/&/g,"&amp;").replace(/</g,"&lt;")
-                         .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+// Viewport filter se okida na svaki move/zoom
+map.on("moveend zoomend", updateViewportList);
+
+// ── Mobile sidebar helpers ──
+function toggleSidebar() {
+  document.getElementById("sidebar").classList.toggle("mob-open");
+}
+function closeSidebar() {
+  document.getElementById("sidebar").classList.remove("mob-open");
 }
 
-// ── Load routes.json ──
+// ── Load data ──
 fetch("routes.json")
   .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(data => {
@@ -192,94 +274,67 @@ fetch("routes.json")
       detail_link:      String(r.detail_link      || ""),
     }));
     polylines = new Array(allRoutes.length).fill(null);
-
-    buildDiffButtons();
-    populateRegions();
-    applyFilters();          // renderuj listu i postavi filteredIdxs
-    loadAllGpx();            // počni asinhrono učitavanje svih GPX-ova
+    buildFilters();
+    applyFilters();
+    loadAllGpx();
   })
   .catch(e => {
     document.getElementById("route-list").innerHTML =
-      `<div class="no-results">❌ Greška: ${e}</div>`;
+      `<div class="no-results">❌ Greška: ${escHtml(String(e))}</div>`;
   });
 
-// ── Učitaj sve GPX fajlove u pozadini (batch, da ne zagušimo browser) ──
-const GPX_BATCH = 5;      // koliko paralelnih fetch-eva odjednom
-const GPX_DELAY = 80;     // ms između batch-eva
+// ── Build filter controls from actual data ──
+function buildFilters() {
+  // Difficulty buttons
+  const diffs = [...new Set(allRoutes.map(r => r.tezina))].sort();
+  activeDiffs  = new Set(diffs);
+  const dc = document.getElementById("diff-btns");
+  dc.innerHTML = "";
+  diffs.forEach(d => {
+    const c = colorFor(d);
+    const b = document.createElement("button");
+    b.className = "diff-btn";
+    b.style.cssText = `background:${c}22;color:${c};border-color:${c}`;
+    b.textContent = d;
+    b.onclick = () => {
+      if (activeDiffs.has(d)) { activeDiffs.delete(d); b.classList.add("off"); }
+      else                    { activeDiffs.add(d);    b.classList.remove("off"); }
+      applyFilters();
+    };
+    dc.appendChild(b);
+  });
 
-async function loadAllGpx() {
-  const withGpx = allRoutes
-    .map((r, i) => ({ i, url: r.gpx_file }))
-    .filter(x => x.url);
+  // Regions
+  const regions = [...new Set(allRoutes.map(r => r.region).filter(Boolean))].sort();
+  const rsel = document.getElementById("flt-region");
+  regions.forEach(r => { const o = document.createElement("option"); o.value = r; o.textContent = r; rsel.appendChild(o); });
 
-  if (!withGpx.length) return;
-
-  const wrap  = document.getElementById("load-bar-wrap");
-  const fill  = document.getElementById("load-bar-fill");
-  const label = document.getElementById("load-bar-label");
-  wrap.style.display = "block";
-
-  let done = 0;
-
-  for (let b = 0; b < withGpx.length; b += GPX_BATCH) {
-    const batch = withGpx.slice(b, b + GPX_BATCH);
-    await Promise.all(batch.map(({ i, url }) =>
-      fetch(url)
-        .then(r => r.ok ? r.text() : null)
-        .then(text => {
-          if (text) {
-            const poly = parseGpx(text, colorFor(allRoutes[i].tezina));
-            if (poly) {
-              polylines[i] = poly;
-              // Odmah prikaži ako je ova ruta u filtriranom skupu
-              if (filteredIdxs.includes(i)) poly.addTo(map);
-              // Klik na liniju = selektuj rutu
-              poly.on("click", () => selectRoute(i));
-            }
-          }
-        })
-        .catch(() => null)
-        .finally(() => {
-          done++;
-          const pct = Math.round((done / withGpx.length) * 100);
-          fill.style.width  = pct + "%";
-          label.textContent = `Učitavam GPX: ${done} / ${withGpx.length}`;
-        })
-    ));
-    await new Promise(res => setTimeout(res, GPX_DELAY));
-  }
-
-  wrap.style.display = "none";
-  document.getElementById("stats").textContent =
-    `${filteredIdxs.length} od ${allRoutes.length} ruta`;
+  // Sources
+  const sources = [...new Set(allRoutes.map(r => r.izvor).filter(Boolean))].sort();
+  const ssel = document.getElementById("flt-izvor");
+  sources.forEach(s => { const o = document.createElement("option"); o.value = s; o.textContent = s; ssel.appendChild(o); });
 }
 
-// ── Parse GPX → Leaflet Polyline ──
-function parseGpx(text, color) {
-  try {
-    const xml = new DOMParser().parseFromString(text, "text/xml");
-    const coords = [];
-    xml.querySelectorAll("trkpt, rtept").forEach(pt => {
-      const lat = parseFloat(pt.getAttribute("lat"));
-      const lon = parseFloat(pt.getAttribute("lon"));
-      if (!isNaN(lat) && !isNaN(lon)) coords.push([lat, lon]);
-    });
-    if (!coords.length) return null;
-    return L.polyline(coords, { color, weight: 3, opacity: 0.75 });
-  } catch(e) { return null; }
+function populatePlanina() {
+  const region = document.getElementById("flt-region").value;
+  const sel    = document.getElementById("flt-planina");
+  sel.innerHTML = '<option value="">Sve planine</option>';
+  [...new Set(
+    allRoutes.filter(r => !region || r.region === region).map(r => r.planina).filter(Boolean)
+  )].sort().forEach(p => {
+    const o = document.createElement("option"); o.value = p; o.textContent = p; sel.appendChild(o);
+  });
 }
 
-// ── Filtri: show/hide polylines, zoom na filtrirane ──
-function applyFilters() {
+// ── Apply filters + optionally zoom ──
+function applyFilters(zoomToResults = false) {
   const search  = document.getElementById("search-box").value.trim().toLowerCase();
   const region  = document.getElementById("flt-region").value;
   const planina = document.getElementById("flt-planina").value;
   const izvor   = document.getElementById("flt-izvor").value;
   const maxLen  = +document.getElementById("len-slider").value;
 
-  const prevFiltered = new Set(filteredIdxs);
   filteredIdxs = [];
-
   allRoutes.forEach((r, i) => {
     if (search  && !r.ime.toLowerCase().includes(search)) return;
     if (region  && r.region  !== region)                  return;
@@ -297,176 +352,212 @@ function applyFilters() {
 
   // Show/hide polylines
   allRoutes.forEach((_, i) => {
-    const poly = polylines[i];
-    if (!poly) return;
-    if (filteredSet.has(i)) {
-      if (!map.hasLayer(poly)) poly.addTo(map);
-    } else {
-      if (map.hasLayer(poly)) map.removeLayer(poly);
-    }
+    const p = polylines[i];
+    if (!p) return;
+    filteredSet.has(i) ? (map.hasLayer(p) || p.addTo(map))
+                       : (map.hasLayer(p) && map.removeLayer(p));
   });
 
-  // Zoom da obuhvati sve filtrirane rute ako ima promena u selekciji
-  //   — uvek zoom ako je nešto odabrano (region/planina/izvor/search)
-  const hasActiveFilter = search || region || planina || izvor || maxLen < 100;
-  if (hasActiveFilter && filteredIdxs.length > 0) {
-    zoomToFiltered();
-  }
+  // Zoom na rezultate samo ako je traženo (region/planina promena)
+  if (zoomToResults && filteredIdxs.length > 0) zoomToFiltered();
 
-  renderList();
   document.getElementById("stats").textContent =
     `${filteredIdxs.length} od ${allRoutes.length} ruta`;
+
+  updateViewportList();
 }
 
+// ── Viewport filter: lista prikazuje samo rute u vidokrugu mape ──
+function updateViewportList() {
+  const bounds = map.getBounds();
+  const zoom   = map.getZoom();
+
+  // Na niskim zoomovima (cela Srbija) — prikaži sve filtrirane
+  if (zoom < 8) {
+    viewportIdxs = filteredIdxs;
+    document.getElementById("viewport-info").style.display = "none";
+  } else {
+    viewportIdxs = filteredIdxs.filter(i => {
+      const p = polylines[i];
+      if (!p) return true;  // još nije učitan — uključi ga
+      try { return bounds.intersects(p.getBounds()); }
+      catch(e) { return true; }
+    });
+    const vi = document.getElementById("viewport-info");
+    vi.style.display = "block";
+    document.getElementById("viewport-count").textContent = viewportIdxs.length;
+  }
+  renderList();
+}
+
+// ── Zoom to all filtered routes ──
 function zoomToFiltered() {
-  // Pokušaj da napravi bounds od dostupnih polylines
-  const bounds = L.latLngBounds();
-  let hasBounds = false;
+  const b = L.latLngBounds();
+  let ok = false;
   filteredIdxs.forEach(i => {
-    const poly = polylines[i];
-    if (poly) {
-      const b = poly.getBounds();
-      if (b.isValid()) { bounds.extend(b); hasBounds = true; }
-    }
+    const p = polylines[i];
+    if (p) { try { b.extend(p.getBounds()); ok = true; } catch(e){} }
   });
-  if (hasBounds) {
-    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 14 });
-  }
-  // Ako GPX-ovi još nisu učitani, pokušaj ponovo za 1.5s
-  else if (filteredIdxs.length > 0) {
-    setTimeout(zoomToFiltered, 1500);
+  if (ok) {
+    map.fitBounds(b, { padding: [40, 40], maxZoom: 14 });
+  } else if (filteredIdxs.length > 0) {
+    setTimeout(zoomToFiltered, 1500); // ponovi kad se GPX učita
   }
 }
 
-// ── Selekcija rute iz liste ──
+// ── Select route ──
 function selectRoute(globalIdx) {
-  // Dehighlight prethodnu
   if (selectedIdx !== null) {
-    const poly = polylines[selectedIdx];
-    if (poly) poly.setStyle({ weight: 3, opacity: 0.75 });
+    const p = polylines[selectedIdx];
+    if (p) p.setStyle({ weight: 3, opacity: 0.75 });
   }
-
   selectedIdx = globalIdx;
   const route = allRoutes[globalIdx];
+  const poly  = polylines[globalIdx];
 
-  // Highlight selektovanu
-  const poly = polylines[globalIdx];
   if (poly) {
     poly.setStyle({ weight: 6, opacity: 1 });
     poly.bringToFront();
-    const b = poly.getBounds();
-    if (b.isValid()) map.fitBounds(b, { padding: [60, 60], maxZoom: 15 });
+    try {
+      const b = poly.getBounds();
+      if (b.isValid()) map.fitBounds(b, { padding: [60, 60], maxZoom: 15 });
+      showPopup(route, b.getCenter());
+    } catch(e) { showPopup(route, map.getCenter()); }
+  } else {
+    showPopup(route, map.getCenter());
   }
 
   // Highlight list item
   document.querySelectorAll(".route-item").forEach(el => el.classList.remove("active"));
-  const listIdx = filteredIdxs.indexOf(globalIdx);
-  if (listIdx >= 0) {
-    const el = document.getElementById(`item-${listIdx}`);
+  const li = viewportIdxs.indexOf(globalIdx);
+  if (li >= 0) {
+    const el = document.getElementById(`item-${li}`);
     if (el) { el.classList.add("active"); el.scrollIntoView({ block: "nearest", behavior: "smooth" }); }
   }
 
-  showPopup(route, poly ? poly.getBounds().getCenter() : map.getCenter());
+  // Na mobilnom — otvori sidebar
+  if (window.innerWidth < 768) {
+    document.getElementById("sidebar").classList.add("mob-open");
+  }
 }
 
 // ── Popup ──
+function escHtml(s) {
+  return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
 function showPopup(route, latlng) {
-  const color = colorFor(route.tezina);
+  const c = colorFor(route.tezina);
   const links = [
     route.gpx_file    ? `<a class="popup-link gpx"    href="${escHtml(route.gpx_file)}"    target="_blank">⬇ GPX</a>` : "",
     route.detail_link ? `<a class="popup-link detail"  href="${escHtml(route.detail_link)}" target="_blank">🔗 Detalji</a>` : "",
   ].filter(Boolean).join("");
-
-  L.popup({ maxWidth: 280 })
-    .setLatLng(latlng)
-    .setContent(`
-      <div class="popup-title">${escHtml(route.ime) || "(bez naziva)"}</div>
-      ${route.region           ? `<div class="popup-row">📍 Region: <span>${escHtml(route.region)}</span></div>` : ""}
-      ${route.planina          ? `<div class="popup-row">⛰ Planina: <span>${escHtml(route.planina)}</span></div>` : ""}
-      ${route.duzina           ? `<div class="popup-row">📏 Dužina: <span>${escHtml(route.duzina)}</span></div>` : ""}
-      ${route.visinska_razlika ? `<div class="popup-row">⬆ Uspon: <span>${escHtml(route.visinska_razlika)}</span></div>` : ""}
-      <div class="popup-row">🎯 Težina: <span style="color:${color};font-weight:600">${escHtml(route.tezina)}</span></div>
-      <div class="popup-row">📂 Izvor: <span>${escHtml(route.izvor)}</span></div>
-      ${links ? `<div class="popup-links">${links}</div>` : ""}
-    `).openOn(map);
+  L.popup({ maxWidth: 270 }).setLatLng(latlng).setContent(`
+    <div class="popup-title">${escHtml(route.ime)||"(bez naziva)"}</div>
+    ${route.region           ? `<div class="popup-row">📍 Region: <span>${escHtml(route.region)}</span></div>` : ""}
+    ${route.planina          ? `<div class="popup-row">⛰ Planina: <span>${escHtml(route.planina)}</span></div>` : ""}
+    ${route.duzina           ? `<div class="popup-row">📏 Dužina: <span>${escHtml(route.duzina)}</span></div>` : ""}
+    ${route.visinska_razlika ? `<div class="popup-row">⬆ Uspon: <span>${escHtml(route.visinska_razlika)}</span></div>` : ""}
+    <div class="popup-row">🎯 Težina: <span style="color:${c};font-weight:600">${escHtml(route.tezina)}</span></div>
+    <div class="popup-row">📂 Izvor: <span>${escHtml(route.izvor)}</span></div>
+    ${links ? `<div class="popup-links">${links}</div>` : ""}
+  `).openOn(map);
 }
 
-// ── Render liste ──
+// ── Render list ──
 function renderList() {
   const c = document.getElementById("route-list");
-  if (!filteredIdxs.length) {
-    c.innerHTML = '<div class="no-results">Nema rezultata za date filtere.</div>';
+  if (!viewportIdxs.length) {
+    c.innerHTML = '<div class="no-results">Nema ruta u trenutnom prikazu.<br><small>Pomeri mapu ili promeni filtere.</small></div>';
     return;
   }
-  c.innerHTML = filteredIdxs.map((globalIdx, listIdx) => {
-    const r     = allRoutes[globalIdx];
-    const color = colorFor(r.tezina);
-    const src   = r.izvor === "PSS" ? "PSS" : "S&amp;B";
-    const isSelected = globalIdx === selectedIdx;
-    return `<div class="route-item${isSelected ? " active" : ""}" id="item-${listIdx}"
-                 onclick="selectRoute(${globalIdx})">
-      <div class="route-name" title="${escHtml(r.ime)}">${escHtml(r.ime) || "(bez naziva)"}</div>
+  c.innerHTML = viewportIdxs.map((gi, li) => {
+    const r  = allRoutes[gi];
+    const cl = colorFor(r.tezina);
+    const src = escHtml(r.izvor || "");
+    return `<div class="route-item${gi === selectedIdx ? " active" : ""}" id="item-${li}"
+                 onclick="selectRoute(${gi})">
+      <div class="route-name" title="${escHtml(r.ime)}">${escHtml(r.ime)||"(bez naziva)"}</div>
       <div class="route-meta">
         ${r.duzina           ? `<span>📏 ${escHtml(r.duzina)}</span>` : ""}
         ${r.visinska_razlika ? `<span>⬆ ${escHtml(r.visinska_razlika)}</span>` : ""}
-        <span class="tag" style="background:${color}22;color:${color};border:1px solid ${color}44">
-          ${escHtml(r.tezina)}
-        </span>
+        <span class="tag" style="background:${cl}22;color:${cl};border:1px solid ${cl}44">${escHtml(r.tezina)}</span>
         <span class="tag tag-src">${src}</span>
       </div>
     </div>`;
   }).join("");
 }
 
-// ── Težina dugmići (dinamički iz podataka) ──
-function buildDiffButtons() {
-  const allDiffs = [...new Set(allRoutes.map(r => r.tezina))].sort();
-  activeDiffs = new Set(allDiffs);
-  const container = document.getElementById("diff-btns");
-  container.innerHTML = "";
-  allDiffs.forEach(d => {
-    const color = colorFor(d);
-    const btn = document.createElement("button");
-    btn.className = "diff-btn";
-    btn.style.cssText = `background:${color}22;color:${color};border-color:${color}`;
-    btn.textContent = d;
-    btn.dataset.diff = d;
-    btn.onclick = () => {
-      if (activeDiffs.has(d)) { activeDiffs.delete(d); btn.classList.add("off"); }
-      else                    { activeDiffs.add(d);    btn.classList.remove("off"); }
-      applyFilters();
-    };
-    container.appendChild(btn);
-  });
+// ── GPX loader ──
+const GPX_BATCH = 5;
+const GPX_DELAY = 80;
+
+async function loadAllGpx() {
+  const withGpx = allRoutes.map((r, i) => ({ i, url: r.gpx_file })).filter(x => x.url);
+  if (!withGpx.length) return;
+
+  const wrap  = document.getElementById("load-bar-wrap");
+  const fill  = document.getElementById("load-bar-fill");
+  const label = document.getElementById("load-bar-label");
+  wrap.style.display = "block";
+
+  for (let b = 0; b < withGpx.length; b += GPX_BATCH) {
+    const batch = withGpx.slice(b, b + GPX_BATCH);
+    await Promise.all(batch.map(({ i, url }) =>
+      fetch(url)
+        .then(r => r.ok ? r.text() : null)
+        .then(text => {
+          if (!text) return;
+          const poly = parseGpx(text, colorFor(allRoutes[i].tezina));
+          if (poly) {
+            polylines[i] = poly;
+            if (new Set(filteredIdxs).has(i)) poly.addTo(map);
+            poly.on("click", () => selectRoute(i));
+          }
+        })
+        .catch(() => null)
+        .finally(() => {
+          gpxLoadDone++;
+          const pct = Math.round((gpxLoadDone / withGpx.length) * 100);
+          fill.style.width  = pct + "%";
+          label.textContent = `GPX: ${gpxLoadDone} / ${withGpx.length}`;
+        })
+    ));
+    await new Promise(res => setTimeout(res, GPX_DELAY));
+    updateViewportList(); // osvežavaj listu tokom učitavanja
+  }
+  wrap.style.display = "none";
 }
 
-// ── Selects ──
-function populateRegions() {
-  const regions = [...new Set(allRoutes.map(r => r.region).filter(Boolean))].sort();
-  const sel = document.getElementById("flt-region");
-  regions.forEach(r => {
-    const o = document.createElement("option");
-    o.value = r; o.textContent = r; sel.appendChild(o);
-  });
+function parseGpx(text, color) {
+  try {
+    const xml = new DOMParser().parseFromString(text, "text/xml");
+    const coords = [];
+    xml.querySelectorAll("trkpt, rtept").forEach(pt => {
+      const lat = parseFloat(pt.getAttribute("lat"));
+      const lon = parseFloat(pt.getAttribute("lon"));
+      if (!isNaN(lat) && !isNaN(lon)) coords.push([lat, lon]);
+    });
+    if (!coords.length) return null;
+    return L.polyline(coords, { color, weight: 3, opacity: 0.75 });
+  } catch(e) { return null; }
 }
 
-function populatePlanina() {
-  const region = document.getElementById("flt-region").value;
-  const sel    = document.getElementById("flt-planina");
-  sel.innerHTML = '<option value="">Sve planine</option>';
-  [...new Set(
-    allRoutes.filter(r => !region || r.region === region).map(r => r.planina).filter(Boolean)
-  )].sort().forEach(p => {
-    const o = document.createElement("option");
-    o.value = p; o.textContent = p; sel.appendChild(o);
-  });
-}
-
+// ── Slider ──
 function updateLenDisplay() {
   const v = +document.getElementById("len-slider").value;
-  document.getElementById("len-display").textContent =
-    v >= 100 ? "0 – 100+ km" : `0 – ${v} km`;
+  document.getElementById("len-display").textContent = v >= 100 ? "0 – 100+ km" : `0 – ${v} km`;
 }
+
+// ── Swipe to close sidebar on mobile ──
+(function() {
+  let startY = 0;
+  const sb = document.getElementById("sidebar");
+  sb.addEventListener("touchstart", e => { startY = e.touches[0].clientY; }, {passive:true});
+  sb.addEventListener("touchend",   e => {
+    if (e.changedTouches[0].clientY - startY > 60) closeSidebar();
+  }, {passive:true});
+})();
 </script>
 </body>
 </html>
