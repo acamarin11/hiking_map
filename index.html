@@ -458,11 +458,13 @@ function showPopup(route, latlng) {
   const c = colorFor(route.tezina);
   const bounds = map.getBounds();
   const cornerLatLng = bounds.getSouthWest();
+  const isDesktop = window.innerWidth >= 768;
+  const leftOffset = isDesktop ? 330 : 10; // sidebar width 320 + 10 margin
   const links = [
     route.gpx_file    ? `<a class="popup-link gpx"    href="${escHtml(route.gpx_file)}"    target="_blank">⬇ GPX</a>` : "",
     route.detail_link ? `<a class="popup-link detail"  href="${escHtml(route.detail_link)}" target="_blank">🔗 Detalji</a>` : "",
   ].filter(Boolean).join("");
-  L.popup({ maxWidth: 270, offset: [10, -10], autoPan: false }).setLatLng(cornerLatLng).setContent(`
+  L.popup({ maxWidth: 270, offset: [leftOffset, -10], autoPan: false }).setLatLng(cornerLatLng).setContent(`
     <div class="popup-title">
       ${escHtml(route.ime)||"(bez naziva)"}
     </div>
