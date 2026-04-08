@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: 'Segoe UI', sans-serif; display: flex; height: 100vh; overflow: hidden; background: #f0f2f5; }
+  body { font-family: 'Segoe UI', sans-serif; display: flex; height: 100vh; overflow: hidden; }
 
   #sidebar {
     width: 340px; min-width: 280px; height: 100vh;
@@ -19,39 +19,35 @@
   #sidebar-header h1 { font-size: 15px; color: #e0e0e0; margin-bottom: 2px; }
   #sidebar-header .subtitle { font-size: 11px; color: #8892a4; }
 
-  #filters { padding: 12px; border-bottom: 1px solid #0f3460; background: #16213e; }
-  .filter-label { font-size: 11px; color: #8892a4; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 5px; }
+  #filters { padding: 12px; border-bottom: 1px solid #0f3460; background: #16213e; overflow-y: auto; max-height: 55vh; }
+  .filter-label { font-size: 11px; color: #8892a4; text-transform: uppercase; letter-spacing: .5px; margin: 8px 0 4px; }
 
   #search-box {
     width: 100%; padding: 7px 10px; border-radius: 6px;
     border: 1px solid #0f3460; background: #0f3460;
-    color: #e0e0e0; font-size: 12px; margin-bottom: 10px; outline: none;
+    color: #e0e0e0; font-size: 12px; margin-bottom: 8px; outline: none;
   }
   #search-box::placeholder { color: #5a6a7a; }
 
-  .filter-row { display: flex; gap: 8px; margin-bottom: 8px; }
   select.flt {
-    flex: 1; padding: 6px 8px; border-radius: 6px;
+    width: 100%; padding: 6px 8px; border-radius: 6px;
     border: 1px solid #0f3460; background: #0f3460;
-    color: #e0e0e0; font-size: 12px; outline: none;
+    color: #e0e0e0; font-size: 12px; outline: none; margin-bottom: 8px;
   }
 
-  .diff-btns { display: flex; gap: 5px; margin-bottom: 8px; flex-wrap: wrap; }
+  /* Težina dugmići — generisani dinamički iz podataka */
+  #diff-btns { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 8px; }
   .diff-btn {
-    padding: 4px 10px; border-radius: 12px; border: none;
-    font-size: 11px; cursor: pointer; font-weight: 600;
-    opacity: 0.4; transition: opacity .2s, transform .1s;
+    padding: 4px 10px; border-radius: 12px; border: 2px solid transparent;
+    font-size: 11px; cursor: pointer; font-weight: 600; transition: opacity .15s;
+    opacity: 1;
   }
-  .diff-btn.active { opacity: 1; transform: scale(1.05); }
-  .diff-btn.laka     { background: #27ae60; color: #fff; }
-  .diff-btn.zahtevna { background: #f39c12; color: #fff; }
-  .diff-btn.teska    { background: #e74c3c; color: #fff; }
-  .diff-btn.nepoznata{ background: #7f8c8d; color: #fff; }
+  .diff-btn.off { opacity: 0.3; }
 
   #len-display { font-size: 11px; color: #8892a4; text-align: right; margin-bottom: 3px; }
   #len-slider { width: 100%; accent-color: #4CAF50; }
 
-  #route-list { flex: 1; overflow-y: auto; padding: 0; }
+  #route-list { flex: 1; overflow-y: auto; }
   #route-list::-webkit-scrollbar { width: 5px; }
   #route-list::-webkit-scrollbar-track { background: #1a1a2e; }
   #route-list::-webkit-scrollbar-thumb { background: #0f3460; border-radius: 3px; }
@@ -64,14 +60,10 @@
   .route-item.active { background: #0f3460; border-left-color: #4CAF50; }
   .route-name { font-size: 12px; font-weight: 600; color: #d0d8e4; margin-bottom: 3px;
                 white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .route-meta { font-size: 11px; color: #5a6a7a; display: flex; gap: 8px; flex-wrap: wrap; }
+  .route-meta { font-size: 11px; color: #5a6a7a; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
   .tag { padding: 1px 6px; border-radius: 8px; font-size: 10px; font-weight: 600; }
-  .tag-laka     { background: #1a4a2a; color: #27ae60; }
-  .tag-zahtevna { background: #4a3010; color: #f39c12; }
-  .tag-teska    { background: #4a1515; color: #e74c3c; }
-  .tag-nepoznata{ background: #2a2a2a; color: #7f8c8d; }
-  .tag-src      { background: #1a2a4a; color: #5b9bd5; }
-  .no-results   { padding: 20px; text-align: center; color: #5a6a7a; font-size: 12px; }
+  .tag-src { background: #1a2a4a; color: #5b9bd5; }
+  .no-results { padding: 20px; text-align: center; color: #5a6a7a; font-size: 12px; }
 
   #map { flex: 1; height: 100vh; }
 
@@ -89,10 +81,10 @@
   .popup-link.detail { background: #0f3460; color: #5b9bd5; border: 1px solid #5b9bd5; }
 
   #loading-track {
-    position: absolute; top: 10px; right: 50%; transform: translateX(50%);
+    position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
     background: #1a1a2e; color: #e0e0e0; padding: 6px 14px;
     border-radius: 20px; font-size: 12px; z-index: 999;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.4); display: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4); display: none; pointer-events: none;
   }
 </style>
 </head>
@@ -108,36 +100,24 @@
     <input id="search-box" placeholder="🔍 Pretraži po imenu..." oninput="applyFilters()">
 
     <div class="filter-label">Region</div>
-    <div class="filter-row">
-      <select class="flt" id="flt-region" onchange="populatePlanina(); applyFilters()">
-        <option value="">Svi regioni</option>
-      </select>
-    </div>
+    <select class="flt" id="flt-region" onchange="populatePlanina(); applyFilters()">
+      <option value="">Svi regioni</option>
+    </select>
 
     <div class="filter-label">Planina / predeo</div>
-    <div class="filter-row">
-      <select class="flt" id="flt-planina" onchange="applyFilters()">
-        <option value="">Sve planine</option>
-      </select>
-    </div>
+    <select class="flt" id="flt-planina" onchange="applyFilters()">
+      <option value="">Sve planine</option>
+    </select>
 
     <div class="filter-label">Izvor</div>
-    <div class="filter-row">
-      <select class="flt" id="flt-izvor" onchange="applyFilters()">
-        <option value="">Svi izvori</option>
-        <option value="PSS">Planinarski savez Srbije</option>
-        <option value="Staze i Bogaze">Staze i Bogaze</option>
-      </select>
-    </div>
+    <select class="flt" id="flt-izvor" onchange="applyFilters()">
+      <option value="">Svi izvori</option>
+      <option value="PSS">Planinarski savez Srbije</option>
+      <option value="Staze i Bogaze">Staze i Bogaze</option>
+    </select>
 
     <div class="filter-label">Težina</div>
-    <div class="diff-btns">
-      <button class="diff-btn laka active"      id="btn-Laka"      onclick="toggleDiff('Laka')">🟢 Laka</button>
-      <button class="diff-btn zahtevna active"  id="btn-Zahtevna"  onclick="toggleDiff('Zahtevna')">🟡 Zahtevna</button>
-      <button class="diff-btn teska active"     id="btn-Teška"     onclick="toggleDiff('Teška')">🔴 Teška</button>
-      <button class="diff-btn teska active"     id="btn-VrloTeška" onclick="toggleDiff('Vrlo teška')">🔴 Vrlo teška</button>
-      <button class="diff-btn nepoznata active" id="btn-Nepoznata" onclick="toggleDiff('—')">⚪ Nepoznata</button>
-    </div>
+    <div id="diff-btns"></div>
 
     <div class="filter-label">Max dužina</div>
     <div id="len-display">0 – 100+ km</div>
@@ -153,44 +133,95 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
+// ── State ──
 let allRoutes = [], filteredRoutes = [];
-let activeDiffs = new Set(["Laka","Zahtevna","Teška","Vrlo teška","—"]);
+let activeDiffs = new Set();   // popunjava se iz podataka
 let activeTrackLayer = null, activeItem = null;
 
-const COLORS = {
-  "Laka": "#27ae60", "Zahtevna": "#f39c12",
-  "Teška": "#e74c3c", "Vrlo teška": "#c0392b",
-  "—": "#7f8c8d", "": "#7f8c8d",
+// ── Boje po težini — sve nepoznate vrednosti dobijaju sivu ──
+const KNOWN_COLORS = {
+  "laka":       "#27ae60",
+  "zahtevna":   "#f39c12",
+  "teška":      "#e74c3c",
+  "teska":      "#e74c3c",
+  "vrlo teška": "#c0392b",
+  "vrlo teska": "#c0392b",
 };
-const colorFor = t => COLORS[t] || COLORS[""];
-const diffClass = t => {
-  if (t === "Laka") return "laka";
-  if (t === "Zahtevna") return "zahtevna";
-  if (t === "Teška" || t === "Vrlo teška") return "teska";
-  return "nepoznata";
-};
+function colorFor(t) {
+  return KNOWN_COLORS[(t||"").toLowerCase()] || "#7f8c8d";
+}
 
+// ── Map ──
 const map = L.map("map").setView([44.0, 21.0], 7);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution: "© OpenStreetMap contributors", maxZoom: 18,
 }).addTo(map);
 
+// ── Load data ──
 fetch("routes.json")
-  .then(r => r.json())
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
   .then(data => {
-    allRoutes = data;
+    allRoutes = data.map(r => ({
+      ime:              String(r.ime              || ""),
+      izvor:            String(r.izvor            || ""),
+      region:           String(r.region           || ""),
+      planina:          String(r.planina          || ""),
+      duzina:           String(r.duzina           || ""),
+      visinska_razlika: String(r.visinska_razlika || ""),
+      tezina:           String(r.tezina           || "—"),
+      gpx_file:         String(r.gpx_file         || ""),
+      detail_link:      String(r.detail_link      || ""),
+    }));
+    buildDiffButtons();
     populateRegions();
     applyFilters();
   })
-  .catch(() => {
+  .catch(e => {
     document.getElementById("route-list").innerHTML =
-      '<div class="no-results">❌ routes.json nije pronađen.</div>';
+      `<div class="no-results">❌ Greška pri učitavanju routes.json<br><small>${e}</small></div>`;
+    document.getElementById("stats").textContent = "Greška";
   });
 
+// ── Dynamically build difficulty buttons from actual data ──
+function buildDiffButtons() {
+  const allDiffs = [...new Set(allRoutes.map(r => r.tezina))].sort();
+  activeDiffs = new Set(allDiffs);   // sve aktivan na startu
+
+  const container = document.getElementById("diff-btns");
+  container.innerHTML = "";
+  allDiffs.forEach(d => {
+    const color = colorFor(d);
+    const btn = document.createElement("button");
+    btn.className = "diff-btn";
+    btn.style.background = color + "22";
+    btn.style.color = color;
+    btn.style.borderColor = color;
+    btn.textContent = d;
+    btn.dataset.diff = d;
+    btn.onclick = () => toggleDiff(d, btn);
+    container.appendChild(btn);
+  });
+}
+
+function toggleDiff(d, btn) {
+  if (activeDiffs.has(d)) {
+    activeDiffs.delete(d);
+    btn.classList.add("off");
+  } else {
+    activeDiffs.add(d);
+    btn.classList.remove("off");
+  }
+  applyFilters();
+}
+
+// ── Populate selects ──
 function populateRegions() {
   const regions = [...new Set(allRoutes.map(r => r.region).filter(Boolean))].sort();
   const sel = document.getElementById("flt-region");
-  regions.forEach(r => { const o = document.createElement("option"); o.value = r; o.textContent = r; sel.appendChild(o); });
+  regions.forEach(r => {
+    const o = document.createElement("option");
+    o.value = r; o.textContent = r; sel.appendChild(o);
+  });
 }
 
 function populatePlanina() {
@@ -200,24 +231,20 @@ function populatePlanina() {
   const planine = [...new Set(
     allRoutes.filter(r => !region || r.region === region).map(r => r.planina).filter(Boolean)
   )].sort();
-  planine.forEach(p => { const o = document.createElement("option"); o.value = p; o.textContent = p; sel.appendChild(o); });
+  planine.forEach(p => {
+    const o = document.createElement("option");
+    o.value = p; o.textContent = p; sel.appendChild(o);
+  });
 }
 
-function toggleDiff(d) {
-  const ids = { "Laka":"Laka","Zahtevna":"Zahtevna","Teška":"Teška","Vrlo teška":"VrloTeška","—":"Nepoznata" };
-  const btn = document.getElementById("btn-" + ids[d]);
-  if (activeDiffs.has(d)) { activeDiffs.delete(d); btn.classList.remove("active"); }
-  else                    { activeDiffs.add(d);    btn.classList.add("active"); }
-  applyFilters();
-}
-
+// ── Filters ──
 function updateLenDisplay() {
   const v = +document.getElementById("len-slider").value;
   document.getElementById("len-display").textContent = v >= 100 ? "0 – 100+ km" : `0 – ${v} km`;
 }
 
 function applyFilters() {
-  const search  = document.getElementById("search-box").value.toLowerCase();
+  const search  = document.getElementById("search-box").value.trim().toLowerCase();
   const region  = document.getElementById("flt-region").value;
   const planina = document.getElementById("flt-planina").value;
   const izvor   = document.getElementById("flt-izvor").value;
@@ -225,11 +252,10 @@ function applyFilters() {
 
   filteredRoutes = allRoutes.filter(r => {
     if (search  && !r.ime.toLowerCase().includes(search)) return false;
-    if (region  && r.region  !== region)  return false;
-    if (planina && r.planina !== planina) return false;
-    if (izvor   && r.izvor   !== izvor)   return false;
-    const diff = r.tezina || "—";
-    if (!activeDiffs.has(diff)) return false;
+    if (region  && r.region  !== region)                  return false;
+    if (planina && r.planina !== planina)                  return false;
+    if (izvor   && r.izvor   !== izvor)                   return false;
+    if (!activeDiffs.has(r.tezina))                       return false;
     if (maxLen < 100) {
       const km = parseFloat(r.duzina);
       if (!isNaN(km) && km > maxLen) return false;
@@ -238,60 +264,73 @@ function applyFilters() {
   });
 
   renderList();
-  document.getElementById("stats").textContent = `${filteredRoutes.length} od ${allRoutes.length} ruta`;
+  document.getElementById("stats").textContent =
+    `${filteredRoutes.length} od ${allRoutes.length} ruta`;
 }
 
+// ── List ──
 function escHtml(s) {
-  return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
 
 function renderList() {
   const c = document.getElementById("route-list");
   if (!filteredRoutes.length) {
-    c.innerHTML = '<div class="no-results">Nema rezultata.</div>'; return;
+    c.innerHTML = '<div class="no-results">Nema rezultata za date filtere.</div>';
+    return;
   }
   c.innerHTML = filteredRoutes.map((r, i) => {
-    const diff = r.tezina || "—";
-    const src  = r.izvor === "PSS" ? "PSS" : "S&B";
+    const color = colorFor(r.tezina);
+    const src   = r.izvor === "PSS" ? "PSS" : "S&amp;B";
     return `<div class="route-item" id="item-${i}" onclick="selectRoute(${i})">
-      <div class="route-name" title="${escHtml(r.ime)}">${escHtml(r.ime)||"(bez naziva)"}</div>
+      <div class="route-name" title="${escHtml(r.ime)}">${escHtml(r.ime) || "(bez naziva)"}</div>
       <div class="route-meta">
-        ${r.duzina ? `<span>📏 ${r.duzina}</span>` : ""}
-        ${r.visinska_razlika ? `<span>⬆ ${r.visinska_razlika}</span>` : ""}
-        <span class="tag tag-${diffClass(diff)}">${diff}</span>
+        ${r.duzina           ? `<span>📏 ${escHtml(r.duzina)}</span>` : ""}
+        ${r.visinska_razlika ? `<span>⬆ ${escHtml(r.visinska_razlika)}</span>` : ""}
+        <span class="tag" style="background:${color}22;color:${color}">${escHtml(r.tezina)}</span>
         <span class="tag tag-src">${src}</span>
       </div>
     </div>`;
   }).join("");
 }
 
+// ── Select & show route ──
 function selectRoute(idx) {
   const route = filteredRoutes[idx];
   if (!route) return;
+
   if (activeItem !== null) {
     const prev = document.getElementById(`item-${activeItem}`);
     if (prev) prev.classList.remove("active");
   }
   activeItem = idx;
   const el = document.getElementById(`item-${idx}`);
-  if (el) { el.classList.add("active"); el.scrollIntoView({block:"nearest"}); }
+  if (el) { el.classList.add("active"); el.scrollIntoView({block:"nearest", behavior:"smooth"}); }
+
   if (activeTrackLayer) { map.removeLayer(activeTrackLayer); activeTrackLayer = null; }
 
   if (route.gpx_file) {
     document.getElementById("loading-track").style.display = "block";
     fetch(route.gpx_file)
-      .then(r => r.text())
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
       .then(gpxText => {
         document.getElementById("loading-track").style.display = "none";
-        const layer = gpxToLayer(gpxText, colorFor(route.tezina || ""));
+        const color = colorFor(route.tezina);
+        const layer = gpxToLayer(gpxText, color);
         if (layer) {
-          layer.addTo(map); activeTrackLayer = layer;
+          layer.addTo(map);
+          activeTrackLayer = layer;
           const b = layer.getBounds();
-          if (b.isValid()) map.fitBounds(b, {padding:[30,30]});
+          if (b.isValid()) map.fitBounds(b, {padding:[40,40]});
           showPopup(route, b.getCenter());
+        } else {
+          showPopup(route, map.getCenter());
         }
       })
-      .catch(() => { document.getElementById("loading-track").style.display = "none"; showPopup(route, map.getCenter()); });
+      .catch(() => {
+        document.getElementById("loading-track").style.display = "none";
+        showPopup(route, map.getCenter());
+      });
   } else {
     showPopup(route, map.getCenter());
   }
@@ -302,33 +341,40 @@ function gpxToLayer(gpxText, color) {
     const xml = new DOMParser().parseFromString(gpxText, "text/xml");
     const coords = [];
     xml.querySelectorAll("trkpt").forEach(pt => {
-      const lat = parseFloat(pt.getAttribute("lat")), lon = parseFloat(pt.getAttribute("lon"));
+      const lat = parseFloat(pt.getAttribute("lat"));
+      const lon = parseFloat(pt.getAttribute("lon"));
       if (!isNaN(lat) && !isNaN(lon)) coords.push([lat, lon]);
     });
-    if (!coords.length) xml.querySelectorAll("rtept").forEach(pt => {
-      const lat = parseFloat(pt.getAttribute("lat")), lon = parseFloat(pt.getAttribute("lon"));
-      if (!isNaN(lat) && !isNaN(lon)) coords.push([lat, lon]);
-    });
-    return coords.length ? L.polyline(coords, {color, weight:4, opacity:0.85}) : null;
+    if (!coords.length) {
+      xml.querySelectorAll("rtept").forEach(pt => {
+        const lat = parseFloat(pt.getAttribute("lat"));
+        const lon = parseFloat(pt.getAttribute("lon"));
+        if (!isNaN(lat) && !isNaN(lon)) coords.push([lat, lon]);
+      });
+    }
+    if (!coords.length) return null;
+    return L.polyline(coords, { color, weight: 4, opacity: 0.85 });
   } catch(e) { return null; }
 }
 
 function showPopup(route, latlng) {
-  const diff = route.tezina || "—";
+  const color = colorFor(route.tezina);
   const links = [
-    route.gpx_file    ? `<a class="popup-link gpx"    href="${route.gpx_file}"    target="_blank">⬇ GPX</a>` : "",
-    route.detail_link ? `<a class="popup-link detail"  href="${route.detail_link}" target="_blank">🔗 Detalji</a>` : "",
-  ].join("");
-  L.popup({maxWidth:280}).setLatLng(latlng).setContent(`
-    <div class="popup-title">${escHtml(route.ime)}</div>
-    <div class="popup-row">📍 Region: <span>${escHtml(route.region)}</span></div>
-    <div class="popup-row">⛰ Planina: <span>${escHtml(route.planina)}</span></div>
-    ${route.duzina           ? `<div class="popup-row">📏 Dužina: <span>${route.duzina}</span></div>` : ""}
-    ${route.visinska_razlika ? `<div class="popup-row">⬆ Uspon: <span>${route.visinska_razlika}</span></div>` : ""}
-    <div class="popup-row">🎯 Težina: <span style="color:${colorFor(diff)}">${diff}</span></div>
-    <div class="popup-row">📂 Izvor: <span>${escHtml(route.izvor)}</span></div>
-    ${links ? `<div class="popup-links">${links}</div>` : ""}
-  `).openOn(map);
+    route.gpx_file    ? `<a class="popup-link gpx"    href="${escHtml(route.gpx_file)}"    target="_blank">⬇ GPX</a>` : "",
+    route.detail_link ? `<a class="popup-link detail"  href="${escHtml(route.detail_link)}" target="_blank">🔗 Detalji</a>` : "",
+  ].filter(Boolean).join("");
+  L.popup({ maxWidth: 280, className: "dark-popup" })
+    .setLatLng(latlng)
+    .setContent(`
+      <div class="popup-title">${escHtml(route.ime) || "(bez naziva)"}</div>
+      ${route.region           ? `<div class="popup-row">📍 Region: <span>${escHtml(route.region)}</span></div>` : ""}
+      ${route.planina          ? `<div class="popup-row">⛰ Planina: <span>${escHtml(route.planina)}</span></div>` : ""}
+      ${route.duzina           ? `<div class="popup-row">📏 Dužina: <span>${escHtml(route.duzina)}</span></div>` : ""}
+      ${route.visinska_razlika ? `<div class="popup-row">⬆ Uspon: <span>${escHtml(route.visinska_razlika)}</span></div>` : ""}
+      <div class="popup-row">🎯 Težina: <span style="color:${color};font-weight:600">${escHtml(route.tezina)}</span></div>
+      <div class="popup-row">📂 Izvor: <span>${escHtml(route.izvor)}</span></div>
+      ${links ? `<div class="popup-links">${links}</div>` : ""}
+    `).openOn(map);
 }
 </script>
 </body>
