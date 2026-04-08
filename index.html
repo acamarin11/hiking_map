@@ -86,10 +86,8 @@ select.flt {
 .route-item.active { background: #0f3460; border-left-color: #4CAF50; }
 .route-name {
   font-size: 12px; font-weight: 600; color: #d0d8e4; margin-bottom: 3px;
-  display: flex; align-items: center; gap: 6px;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
-.route-badge { font-size: 10px; color: #9fd77d; background: rgba(125,215,125,.12); border: 1px solid rgba(125,215,125,.24); border-radius: 8px; padding: 1px 6px; white-space: nowrap; }
 .route-meta { font-size: 11px; color: #5a6a7a; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .tag { padding: 1px 5px; border-radius: 8px; font-size: 10px; font-weight: 600; }
 .tag-src { background: #1a2a4a; color: #5b9bd5; }
@@ -118,8 +116,7 @@ select.flt {
   border: 1px solid #0f3460; font-family: 'Segoe UI', sans-serif; min-width: 210px;
 }
 .leaflet-popup-tip { background: #16213e; }
-.popup-title  { font-weight: 700; font-size: 13px; margin-bottom: 7px; color: #fff; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.popup-kruzna { font-size: 11px; color: #9fd77d; background: rgba(125,215,125,.12); border: 1px solid rgba(125,215,125,.24); border-radius: 8px; padding: 2px 6px; }
+.popup-title  { font-weight: 700; font-size: 13px; margin-bottom: 7px; color: #fff; }
 .popup-row    { font-size: 11px; margin-bottom: 3px; color: #8892a4; }
 .popup-row span { color: #d0d8e4; }
 .popup-links  { margin-top: 8px; display: flex; gap: 7px; flex-wrap: wrap; }
@@ -463,10 +460,9 @@ function showPopup(route, latlng) {
     route.gpx_file    ? `<a class="popup-link gpx"    href="${escHtml(route.gpx_file)}"    target="_blank">⬇ GPX</a>` : "",
     route.detail_link ? `<a class="popup-link detail"  href="${escHtml(route.detail_link)}" target="_blank">🔗 Detalji</a>` : "",
   ].filter(Boolean).join("");
-  L.popup({ maxWidth: 270 }).setLatLng(latlng).setContent(`
+  L.popup({ maxWidth: 270, offset: [100, 0], autoPan: true }).setLatLng(latlng).setContent(`
     <div class="popup-title">
       ${escHtml(route.ime)||"(bez naziva)"}
-      <span class="popup-kruzna">${route.kruzna ? "🔁 Da" : "○ Ne"}</span>
     </div>
     ${route.region           ? `<div class="popup-row">📍 Region: <span>${escHtml(route.region)}</span></div>` : ""}
     ${route.planina          ? `<div class="popup-row">⛰ Planina: <span>${escHtml(route.planina)}</span></div>` : ""}
@@ -494,12 +490,11 @@ function renderList() {
                  onclick="selectRoute(${gi})">
       <div class="route-name" title="${escHtml(r.ime)}">
         ${escHtml(r.ime)||"(bez naziva)"}
-        ${r.kruzna ? `<span class="route-badge">🔁 Da</span>` : ""}
       </div>
       <div class="route-meta">
         ${r.duzina           ? `<span>📏 ${escHtml(r.duzina)}</span>` : ""}
         ${r.visinska_razlika ? `<span>⬆ ${escHtml(r.visinska_razlika)}</span>` : ""}
-        ${r.kruzna ? `<span class="tag tag-kruzna">● Da</span>` : ""}
+        <span class="tag tag-kruzna">🔁 ${r.kruzna ? "Da" : "Ne"}</span>
         <span class="tag" style="background:${cl}22;color:${cl};border:1px solid ${cl}44">${escHtml(r.tezina)}</span>
         <span class="tag tag-src">${src}</span>
       </div>
