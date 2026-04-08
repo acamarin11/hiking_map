@@ -8,7 +8,8 @@
     "visinska_razlika": "1170/812",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/narcisu-u-pohode.gpx",
-    "detail_link": "https://pss.rs/terenipp/narcisu-u-pohode/"
+    "detail_link": "https://pss.rs/terenipp/narcisu-u-pohode/",
+    "kruzna": false
   },
   {
     "ime": "Planinarsko-izletnička staza „Miroslav Miki Mladenović“",
@@ -19,7 +20,8 @@
     "visinska_razlika": "405/405",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/planinarsko-izletnicka-staza-miroslav-miki-mladenovic.gpx",
-    "detail_link": "https://pss.rs/terenipp/planinarsko-izletnicka-staza-miroslav-miki-mladenovic/"
+    "detail_link": "https://pss.rs/terenipp/planinarsko-izletnicka-staza-miroslav-miki-mladenovic/",
+    "kruzna": true
   },
   {
     "ime": "Žaračka planina – vrh Bandera",
@@ -30,7 +32,8 @@
     "visinska_razlika": "730/717",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/zaracka-planina-vrh-bandera.gpx",
-    "detail_link": "https://pss.rs/terenipp/zaracka-planina-vrh-bandera/"
+    "detail_link": "https://pss.rs/terenipp/zaracka-planina-vrh-bandera/",
+    "kruzna": false
   },
   {
     "ime": "Pešačko-izletnička staza „Dobrilo Nenadić“",
@@ -41,7 +44,8 @@
     "visinska_razlika": "410/410",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/pesacko-izletnicka-staza-dobrilo-nenadic.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-dobrilo-nenadic/"
+    "detail_link": "https://pss.rs/terenipp/staza-dobrilo-nenadic/",
+    "kruzna": true
   },
   {
     "ime": "Planinarska kuća „Suvaja“- Resavska pećina",
@@ -52,7 +56,8 @@
     "visinska_razlika": "437/437",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/planinarska-kuca-suvaja-resavska-pecina.gpx",
-    "detail_link": "https://pss.rs/terenipp/planinarska-kuca-suvaja-resavska-pecina/"
+    "detail_link": "https://pss.rs/terenipp/planinarska-kuca-suvaja-resavska-pecina/",
+    "kruzna": true
   },
   {
     "ime": "Planinarska kuća „Suvaja“- vrh Beljanica",
@@ -63,7 +68,8 @@
     "visinska_razlika": "963/963",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/planinarska-kuca-suvaja-vrh-beljanica.gpx",
-    "detail_link": "https://pss.rs/terenipp/planinarska-kuca-suvaja-vrh-beljanica/"
+    "detail_link": "https://pss.rs/terenipp/planinarska-kuca-suvaja-vrh-beljanica/",
+    "kruzna": true
   },
   {
     "ime": "Planinarska kuća „Suvaja“- vrh Golovršac",
@@ -74,7 +80,8 @@
     "visinska_razlika": "575/575",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/planinarska-kuca-suvaja-vrh-golovrsac.gpx",
-    "detail_link": "https://pss.rs/terenipp/planinarska-kuca-suvaja-vrh-golovrsac/"
+    "detail_link": "https://pss.rs/terenipp/planinarska-kuca-suvaja-vrh-golovrsac/",
+    "kruzna": true
   },
   {
     "ime": "Borince – Petrov vrh",
@@ -85,7 +92,8 @@
     "visinska_razlika": "532/532",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/borince-petrov-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/borince-petrov-vrh/"
+    "detail_link": "https://pss.rs/terenipp/borince-petrov-vrh/",
+    "kruzna": true
   },
   {
     "ime": "Megara 1 – Milunova staza",
@@ -96,7 +104,8 @@
     "visinska_razlika": "403/433",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/megara-1-milunova-staza.gpx",
-    "detail_link": "https://pss.rs/terenipp/megara-1-milunova-staza/"
+    "detail_link": "https://pss.rs/terenipp/megara-1-milunova-staza/",
+    "kruzna": false
   },
   {
     "ime": "Ravni (centar) – Drežnik (centar)",
@@ -107,7 +116,8 @@
     "visinska_razlika": "494/354",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/ravni-centar-dreznik-centar.gpx",
-    "detail_link": "https://pss.rs/terenipp/ravni-centar-dreznik-centar/"
+    "detail_link": "https://pss.rs/terenipp/ravni-centar-dreznik-centar/",
+    "kruzna": false
   },
   {
     "ime": "Junior eko trail",
@@ -118,7 +128,8 @@
     "visinska_razlika": "173/145",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/junior-eko-trail.gpx",
-    "detail_link": "https://pss.rs/terenipp/junior-eko-trail/"
+    "detail_link": "https://pss.rs/terenipp/junior-eko-trail/",
+    "kruzna": false
   },
   {
     "ime": "Pl.dom Šarena bukva-Leskova ravan-Radaljsko jezero",
@@ -129,7 +140,8 @@
     "visinska_razlika": "8/311",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/pldom-sarena-bukva-leskova-ravan-radaljsko-jezero.gpx",
-    "detail_link": "https://pss.rs/terenipp/pl-dom-sarena-bukva-leskova-ravan-radaljsko-jezero/"
+    "detail_link": "https://pss.rs/terenipp/pl-dom-sarena-bukva-leskova-ravan-radaljsko-jezero/",
+    "kruzna": false
   },
   {
     "ime": "Zajača – manastir Tronoša",
@@ -140,7 +152,8 @@
     "visinska_razlika": "235/255",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/zajaca-manastir-tronosa.gpx",
-    "detail_link": "https://pss.rs/terenipp/zajaca-manastir-tronosa/"
+    "detail_link": "https://pss.rs/terenipp/zajaca-manastir-tronosa/",
+    "kruzna": false
   },
   {
     "ime": "Kanjon reke Panjice – Vodena pećina – Brekovo",
@@ -151,7 +164,8 @@
     "visinska_razlika": "---",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kanjon-reke-panjice-vodena-pecina-brekovo.gpx",
-    "detail_link": "https://pss.rs/terenipp/kaljon-reke-panjice-vodena-pecina-brekovo/"
+    "detail_link": "https://pss.rs/terenipp/kaljon-reke-panjice-vodena-pecina-brekovo/",
+    "kruzna": false
   },
   {
     "ime": "Lisine – Resavska pećina – Suvaja",
@@ -162,7 +176,8 @@
     "visinska_razlika": "500/500",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/lisine-resavska-pecina-suvaja.gpx",
-    "detail_link": "https://pss.rs/terenipp/lisine-resavska-pecina-suvaja/"
+    "detail_link": "https://pss.rs/terenipp/lisine-resavska-pecina-suvaja/",
+    "kruzna": true
   },
   {
     "ime": "Beljanica – Bogojavljenski uspon",
@@ -173,7 +188,8 @@
     "visinska_razlika": "1050/1050",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/beljanica-bogojavljenski-uspon.gpx",
-    "detail_link": "https://pss.rs/terenipp/beljanica-bogojavljenski-uspon/"
+    "detail_link": "https://pss.rs/terenipp/beljanica-bogojavljenski-uspon/",
+    "kruzna": true
   },
   {
     "ime": "Drežnik (zaseok Joletići) – vrh Kućišta",
@@ -184,7 +200,8 @@
     "visinska_razlika": "316/316",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/dreznik-zaseok-joletici-vrh-kucista.gpx",
-    "detail_link": "https://pss.rs/terenipp/dreznik-zaseok-joletici-vrh-kucista/"
+    "detail_link": "https://pss.rs/terenipp/dreznik-zaseok-joletici-vrh-kucista/",
+    "kruzna": true
   },
   {
     "ime": "Brana – V. Vrtop (staza 9)",
@@ -195,7 +212,8 @@
     "visinska_razlika": "530/10",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/brana-v-vrtop-staza-9.gpx",
-    "detail_link": "https://pss.rs/terenipp/brana-v-vrtop-staza-9/"
+    "detail_link": "https://pss.rs/terenipp/brana-v-vrtop-staza-9/",
+    "kruzna": false
   },
   {
     "ime": "Polom – M. Vrtop – V. Vrtop (staza 8)",
@@ -206,7 +224,8 @@
     "visinska_razlika": "615/90",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/polom-m-vrtop-v-vrtop-staza-8.gpx",
-    "detail_link": "https://pss.rs/terenipp/polom-m-vrtop-v-vrtop-staza-8/"
+    "detail_link": "https://pss.rs/terenipp/polom-m-vrtop-v-vrtop-staza-8/",
+    "kruzna": false
   },
   {
     "ime": "Zlatanci – Orlovac – V. Vrtop (staza 7)",
@@ -217,7 +236,8 @@
     "visinska_razlika": "730/130",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/zlatanci-orlovac-v-vrtop-staza-7.gpx",
-    "detail_link": "https://pss.rs/terenipp/zlatanci-orlovac-v-vrtop-staza-7/"
+    "detail_link": "https://pss.rs/terenipp/zlatanci-orlovac-v-vrtop-staza-7/",
+    "kruzna": false
   },
   {
     "ime": "Vlasinski Vrtovi – V. Čemernik (staza 5)",
@@ -228,7 +248,8 @@
     "visinska_razlika": "420/20",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/vlasinski-vrtovi-v-cemernik-staza-5.gpx",
-    "detail_link": "https://pss.rs/terenipp/vlasinski-vrtovi-v-cemernik-staza-5/"
+    "detail_link": "https://pss.rs/terenipp/vlasinski-vrtovi-v-cemernik-staza-5/",
+    "kruzna": false
   },
   {
     "ime": "Promaja – V. Čemernik (staza 4)",
@@ -239,7 +260,8 @@
     "visinska_razlika": "410/20",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/promaja-v-cemernik-staza-4.gpx",
-    "detail_link": "https://pss.rs/terenipp/promaja-v-cemernik-staza-4/"
+    "detail_link": "https://pss.rs/terenipp/promaja-v-cemernik-staza-4/",
+    "kruzna": false
   },
   {
     "ime": "Edukativna staza „neXt borovnice“",
@@ -250,7 +272,8 @@
     "visinska_razlika": "280/280",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/edukativna-staza-next-borovnice.gpx",
-    "detail_link": "https://pss.rs/terenipp/edukativna-staza-next-borovnice/"
+    "detail_link": "https://pss.rs/terenipp/edukativna-staza-next-borovnice/",
+    "kruzna": true
   },
   {
     "ime": "Juhorski izvori",
@@ -261,7 +284,8 @@
     "visinska_razlika": "650/650",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/juhorski-izvori.gpx",
-    "detail_link": "https://pss.rs/terenipp/juhorski-izvori/"
+    "detail_link": "https://pss.rs/terenipp/juhorski-izvori/",
+    "kruzna": true
   },
   {
     "ime": "Kađenica",
@@ -272,7 +296,8 @@
     "visinska_razlika": "20/513",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kaenica.gpx",
-    "detail_link": "https://pss.rs/terenipp/kadjenica/"
+    "detail_link": "https://pss.rs/terenipp/kadjenica/",
+    "kruzna": false
   },
   {
     "ime": "Dule Krnjajić",
@@ -283,7 +308,8 @@
     "visinska_razlika": "365/0",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/dule-krnjajic.gpx",
-    "detail_link": "https://pss.rs/terenipp/dule-krnjajic/"
+    "detail_link": "https://pss.rs/terenipp/dule-krnjajic/",
+    "kruzna": false
   },
   {
     "ime": "Ovčar",
@@ -294,7 +320,8 @@
     "visinska_razlika": "708/708",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/ovcar.gpx",
-    "detail_link": "https://pss.rs/terenipp/ovcar/"
+    "detail_link": "https://pss.rs/terenipp/ovcar/",
+    "kruzna": true
   },
   {
     "ime": "Debela gora",
@@ -305,7 +332,8 @@
     "visinska_razlika": "513/513",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/debela-gora.gpx",
-    "detail_link": "https://pss.rs/terenipp/debela-gora/"
+    "detail_link": "https://pss.rs/terenipp/debela-gora/",
+    "kruzna": true
   },
   {
     "ime": "Kota 889",
@@ -316,7 +344,8 @@
     "visinska_razlika": "599/0",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kota-889.gpx",
-    "detail_link": "https://pss.rs/terenipp/kota-889/"
+    "detail_link": "https://pss.rs/terenipp/kota-889/",
+    "kruzna": false
   },
   {
     "ime": "Grabova kosa",
@@ -327,7 +356,8 @@
     "visinska_razlika": "607/0",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/grabova-kosa.gpx",
-    "detail_link": "https://pss.rs/terenipp/grabova-kosa/"
+    "detail_link": "https://pss.rs/terenipp/grabova-kosa/",
+    "kruzna": false
   },
   {
     "ime": "Kablar",
@@ -338,7 +368,8 @@
     "visinska_razlika": "607/0",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kablar.gpx",
-    "detail_link": "https://pss.rs/terenipp/kablar/"
+    "detail_link": "https://pss.rs/terenipp/kablar/",
+    "kruzna": false
   },
   {
     "ime": "Sveti Sava – STAZA JE PRIVREMENO ZATVORENA",
@@ -349,7 +380,8 @@
     "visinska_razlika": "595/0",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/sveti-sava-staza-je-privremeno-zatvorena.gpx",
-    "detail_link": "https://pss.rs/terenipp/sveti-sava/"
+    "detail_link": "https://pss.rs/terenipp/sveti-sava/",
+    "kruzna": false
   },
   {
     "ime": "Devojačka stena",
@@ -360,7 +392,8 @@
     "visinska_razlika": "595/0",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/devojacka-stena.gpx",
-    "detail_link": "https://pss.rs/terenipp/devojacka-stena/"
+    "detail_link": "https://pss.rs/terenipp/devojacka-stena/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 20: Semegnjevo – Lupoglav",
@@ -371,7 +404,8 @@
     "visinska_razlika": "480/480",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-20-semegnjevo-lupoglav.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-20-semegnjevo-lupoglav/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-20-semegnjevo-lupoglav/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 19: Ribnica – Liska",
@@ -382,7 +416,8 @@
     "visinska_razlika": "570/570",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-19-ribnica-liska.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-19-ribnica-liska/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-19-ribnica-liska/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 17: Donje Selo – Dubrava",
@@ -393,7 +428,8 @@
     "visinska_razlika": "630/630",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-17-donje-selo-dubrava.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-17-donje-selo-dubrava/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-17-donje-selo-dubrava/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 13: Stublo – Omarski potok",
@@ -404,7 +440,8 @@
     "visinska_razlika": "520/520",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-13-stublo-omarski-potok.gpx",
-    "detail_link": "https://pss.rs/terenipp/19291/"
+    "detail_link": "https://pss.rs/terenipp/19291/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 12: Dobroselica – Marića stena",
@@ -415,7 +452,8 @@
     "visinska_razlika": "630/630",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-12-dobroselica-marica-stena.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-12-dobroselica-marica-stena/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-12-dobroselica-marica-stena/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 10: Semegnjevo – Lečića vrh",
@@ -426,7 +464,8 @@
     "visinska_razlika": "730/730",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-10-semegnjevo-lecica-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-10-semegnjevo-lecica-vrh/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-10-semegnjevo-lecica-vrh/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 9: Čavlovac – Kobilja glava",
@@ -437,7 +476,8 @@
     "visinska_razlika": "550/550",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-9-cavlovac-kobilja-glava.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-9-cavlovac-kobilja-glava/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-9-cavlovac-kobilja-glava/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 8: Semegnjevo – Viogor",
@@ -448,7 +488,8 @@
     "visinska_razlika": "680/680",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-8-semegnjevo-viogor.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-8-semegnjevo-viogor/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-8-semegnjevo-viogor/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 7: Semegnjevo – Savino Brdo",
@@ -459,7 +500,8 @@
     "visinska_razlika": "460/460",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-7-semegnjevo-savino-brdo.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-7-semegnjevo-savino-brdo/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-7-semegnjevo-savino-brdo/",
+    "kruzna": true
   },
   {
     "ime": "Cerovi – Golema Porica",
@@ -470,7 +512,8 @@
     "visinska_razlika": "160/25",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/cerovi-golema-porica.gpx",
-    "detail_link": "https://pss.rs/terenipp/cerovi-golema-porica/"
+    "detail_link": "https://pss.rs/terenipp/cerovi-golema-porica/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 3: Ljubiš – Murtenica",
@@ -481,7 +524,8 @@
     "visinska_razlika": "810/810",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-3-ljubis-murtenica.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-3-ljubis-murtenica/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-3-ljubis-murtenica/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 1: Negbina – Karaula",
@@ -492,7 +536,8 @@
     "visinska_razlika": "450/450",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-1-negbina-karaula.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-1-negbina-karaula/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-1-negbina-karaula/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 18: Ječmište – vrh Bandera (Tornik)",
@@ -503,7 +548,8 @@
     "visinska_razlika": "670/670",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-18-jecmiste-vrh-bandera-tornik.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-18-jecmiste-vrh-bandera-tornik/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-18-jecmiste-vrh-bandera-tornik/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 6: Zlatibor – Spomenik – Čuker",
@@ -514,7 +560,8 @@
     "visinska_razlika": "790/790",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-6-zlatibor-spomenik-cuker.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-6-zlatibor-spomenik-cuker/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-6-zlatibor-spomenik-cuker/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 5: Jokina ćuprija – Jelje – Konjoder",
@@ -525,7 +572,8 @@
     "visinska_razlika": "550/550",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-5-jokina-cuprija-jelje-konjoder.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-5-jokina-cuprija-jelje-konjoder/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-5-jokina-cuprija-jelje-konjoder/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 4: Gostilje – Čigota",
@@ -536,7 +584,8 @@
     "visinska_razlika": "850/850",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-4-gostilje-cigota.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-4-gostilje-cigota/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-4-gostilje-cigota/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 2: Murtenica – Tavničko jezero",
@@ -547,7 +596,8 @@
     "visinska_razlika": "700/700",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-2-murtenica-tavnicko-jezero.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-2-murtenica-tavnicko-jezero/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-2-murtenica-tavnicko-jezero/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 16: Jablanica – Ljuljaš",
@@ -558,7 +608,8 @@
     "visinska_razlika": "790/790",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-16-jablanica-ljuljas.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-16-jablanica-ljuljas/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-16-jablanica-ljuljas/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 15: Kolijevka – Orlić",
@@ -569,7 +620,8 @@
     "visinska_razlika": "760/760",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-15-kolijevka-orlic.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-15-kolijevka-orlic/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-15-kolijevka-orlic/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 14: Manastir Uvac – Krvavac",
@@ -580,7 +632,8 @@
     "visinska_razlika": "710/710",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-14-manastir-uvac-krvavac.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-14-manastir-uvac-krvavac/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-14-manastir-uvac-krvavac/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 16. „Biser Kukavice“",
@@ -591,7 +644,8 @@
     "visinska_razlika": "233/202",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-16-biser-kukavice.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-16-biser-kukavice/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-16-biser-kukavice/",
+    "kruzna": false
   },
   {
     "ime": "Plato Device do izvora Moravice",
@@ -602,7 +656,8 @@
     "visinska_razlika": "638/1182",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/plato-device-do-izvora-moravice.gpx",
-    "detail_link": "https://pss.rs/terenipp/plato-device-do-izvora-moravice/"
+    "detail_link": "https://pss.rs/terenipp/plato-device-do-izvora-moravice/",
+    "kruzna": false
   },
   {
     "ime": "Divčibare centar – Planinarski dom „Na Poljanama“",
@@ -613,7 +668,8 @@
     "visinska_razlika": "170/149",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/divcibare-centar-planinarski-dom-na-poljanama.gpx",
-    "detail_link": "https://pss.rs/terenipp/divcibare-centar-planinarski-dom-na-poljanama/"
+    "detail_link": "https://pss.rs/terenipp/divcibare-centar-planinarski-dom-na-poljanama/",
+    "kruzna": false
   },
   {
     "ime": "Debelo Brdo – Jablanik – Bebića Luka",
@@ -624,7 +680,8 @@
     "visinska_razlika": "263/794",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/debelo-brdo-jablanik-bebica-luka.gpx",
-    "detail_link": "https://pss.rs/terenipp/debelo-brdo-jablanik-bebica-luka/"
+    "detail_link": "https://pss.rs/terenipp/debelo-brdo-jablanik-bebica-luka/",
+    "kruzna": false
   },
   {
     "ime": "Selo Radanovci – „Obradovići“",
@@ -635,7 +692,8 @@
     "visinska_razlika": "376/500",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/selo-radanovci-obradovici.gpx",
-    "detail_link": "https://pss.rs/terenipp/selo-radanovci-obradovic/"
+    "detail_link": "https://pss.rs/terenipp/selo-radanovci-obradovic/",
+    "kruzna": false
   },
   {
     "ime": "Divčibare centar – Golubac",
@@ -646,7 +704,8 @@
     "visinska_razlika": "116/25",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/divcibare-centar-golubac.gpx",
-    "detail_link": "https://pss.rs/terenipp/divcibare-centar-golubac/"
+    "detail_link": "https://pss.rs/terenipp/divcibare-centar-golubac/",
+    "kruzna": false
   },
   {
     "ime": "Divčibare centar – Velika Pleća",
@@ -657,7 +716,8 @@
     "visinska_razlika": "162/80",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/divcibare-centar-velika-pleca.gpx",
-    "detail_link": "https://pss.rs/terenipp/divcibare-centar-velika-pleca/"
+    "detail_link": "https://pss.rs/terenipp/divcibare-centar-velika-pleca/",
+    "kruzna": false
   },
   {
     "ime": "Planinarski dom „Na Poljanama“ – Paljba",
@@ -668,7 +728,8 @@
     "visinska_razlika": "290/224",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/planinarski-dom-na-poljanama-paljba.gpx",
-    "detail_link": "https://pss.rs/terenipp/planinarski-dom-na-poljanama-paljba/"
+    "detail_link": "https://pss.rs/terenipp/planinarski-dom-na-poljanama-paljba/",
+    "kruzna": false
   },
   {
     "ime": "Planinarski dom „Debelo brdo“- Poćuta",
@@ -679,7 +740,8 @@
     "visinska_razlika": "250/823",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/planinarski-dom-debelo-brdo-pocuta.gpx",
-    "detail_link": "https://pss.rs/terenipp/planinarski-dom-debelo-brdo-pocuta/"
+    "detail_link": "https://pss.rs/terenipp/planinarski-dom-debelo-brdo-pocuta/",
+    "kruzna": false
   },
   {
     "ime": "Bele vode – Taorska vrela",
@@ -690,7 +752,8 @@
     "visinska_razlika": "108/486",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/bele-vode-taorska-vrela.gpx",
-    "detail_link": "https://pss.rs/terenipp/bele-vode-taorska-vrela/"
+    "detail_link": "https://pss.rs/terenipp/bele-vode-taorska-vrela/",
+    "kruzna": false
   },
   {
     "ime": "Klisura reke Gradac",
@@ -701,7 +764,8 @@
     "visinska_razlika": "251/151",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/klisura-reke-gradac.gpx",
-    "detail_link": "https://pss.rs/terenipp/klisura-reke-gradac/"
+    "detail_link": "https://pss.rs/terenipp/klisura-reke-gradac/",
+    "kruzna": false
   },
   {
     "ime": "Jarsenovo – G. Kupinovica – Kriva Buka",
@@ -712,7 +776,8 @@
     "visinska_razlika": "717/176",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/jarsenovo-g-kupinovica-kriva-buka.gpx",
-    "detail_link": "https://pss.rs/terenipp/jarsenovo-g-kupinovica-kriva-buka/"
+    "detail_link": "https://pss.rs/terenipp/jarsenovo-g-kupinovica-kriva-buka/",
+    "kruzna": false
   },
   {
     "ime": "„Crni Kamen“",
@@ -723,7 +788,8 @@
     "visinska_razlika": "529/529",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/crni-kamen.gpx",
-    "detail_link": "https://pss.rs/terenipp/crni-kamen/"
+    "detail_link": "https://pss.rs/terenipp/crni-kamen/",
+    "kruzna": true
   },
   {
     "ime": "Velika staza 30 km",
@@ -734,7 +800,8 @@
     "visinska_razlika": "105/105",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/velika-staza-30-km.gpx",
-    "detail_link": "https://pss.rs/terenipp/velika-staza-30-km/"
+    "detail_link": "https://pss.rs/terenipp/velika-staza-30-km/",
+    "kruzna": true
   },
   {
     "ime": "Srednja staza 20 km",
@@ -745,7 +812,8 @@
     "visinska_razlika": "81/81",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/srednja-staza-20-km.gpx",
-    "detail_link": "https://pss.rs/terenipp/srednja-staza-20-km/"
+    "detail_link": "https://pss.rs/terenipp/srednja-staza-20-km/",
+    "kruzna": true
   },
   {
     "ime": "Mala staza 15 km",
@@ -756,7 +824,8 @@
     "visinska_razlika": "63/63",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/mala-staza-15-km.gpx",
-    "detail_link": "https://pss.rs/terenipp/mala-staza/"
+    "detail_link": "https://pss.rs/terenipp/mala-staza/",
+    "kruzna": true
   },
   {
     "ime": "Grebenom Rtnja",
@@ -767,7 +836,8 @@
     "visinska_razlika": "869/869",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/grebenom-rtnja.gpx",
-    "detail_link": "https://pss.rs/terenipp/grebenom-rtnja/"
+    "detail_link": "https://pss.rs/terenipp/grebenom-rtnja/",
+    "kruzna": true
   },
   {
     "ime": "4 vrha Device",
@@ -778,7 +848,8 @@
     "visinska_razlika": "668/668",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/4-vrha-device.gpx",
-    "detail_link": "https://pss.rs/terenipp/4-vrha-device/"
+    "detail_link": "https://pss.rs/terenipp/4-vrha-device/",
+    "kruzna": true
   },
   {
     "ime": "Staza zdravlja manastir Drača",
@@ -789,7 +860,8 @@
     "visinska_razlika": "240/240",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-zdravlja-manastir-draca.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-zdravlja-manastir-draca/"
+    "detail_link": "https://pss.rs/terenipp/staza-zdravlja-manastir-draca/",
+    "kruzna": true
   },
   {
     "ime": "Rekreativna staza “Ribare-Kočin hrast”",
@@ -800,7 +872,8 @@
     "visinska_razlika": "10/20",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/rekreativna-staza-ribare-kocin-hrast.gpx",
-    "detail_link": "https://pss.rs/terenipp/rekreativna-staza-ribare-kocin-hrast/"
+    "detail_link": "https://pss.rs/terenipp/rekreativna-staza-ribare-kocin-hrast/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 15 ,,Kita“",
@@ -811,7 +884,8 @@
     "visinska_razlika": "958/918",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-15-kita.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-15-kita/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-15-kita/",
+    "kruzna": false
   },
   {
     "ime": "Milušinac – Bogova vrata",
@@ -822,7 +896,8 @@
     "visinska_razlika": "390/390",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/milusinac-bogova-vrata.gpx",
-    "detail_link": "https://pss.rs/terenipp/milusinac-bogova-vrata/"
+    "detail_link": "https://pss.rs/terenipp/milusinac-bogova-vrata/",
+    "kruzna": true
   },
   {
     "ime": "Ripaljka – Jermenčić – Leskovik – Ozrenska vrata",
@@ -833,7 +908,8 @@
     "visinska_razlika": "892/892",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/ripaljka-jermencic-leskovik-ozrenska-vrata.gpx",
-    "detail_link": "https://pss.rs/terenipp/ripaljka-jermencic-leskovik-ozrenska-vrata/"
+    "detail_link": "https://pss.rs/terenipp/ripaljka-jermencic-leskovik-ozrenska-vrata/",
+    "kruzna": true
   },
   {
     "ime": "Sokobanja – Ripaljka – Jermenčić",
@@ -844,7 +920,8 @@
     "visinska_razlika": "384/384",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/sokobanja-ripaljka-jermencic.gpx",
-    "detail_link": "https://pss.rs/terenipp/13405/"
+    "detail_link": "https://pss.rs/terenipp/13405/",
+    "kruzna": true
   },
   {
     "ime": "Izletišta i vidikovci Sokobanje",
@@ -855,7 +932,8 @@
     "visinska_razlika": "597/597",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/izletista-i-vidikovci-sokobanje.gpx",
-    "detail_link": "https://pss.rs/terenipp/izletista-i-vidikovci-sokobanje/"
+    "detail_link": "https://pss.rs/terenipp/izletista-i-vidikovci-sokobanje/",
+    "kruzna": true
   },
   {
     "ime": "Lepterija – Sokograd – Golemi kamen",
@@ -866,7 +944,8 @@
     "visinska_razlika": "398/398",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/lepterija-sokograd-golemi-kamen.gpx",
-    "detail_link": "https://pss.rs/terenipp/lepterija-sokograd-golemi-kamen/"
+    "detail_link": "https://pss.rs/terenipp/lepterija-sokograd-golemi-kamen/",
+    "kruzna": true
   },
   {
     "ime": "Sesalac – Slemen – Sesalačka pećina",
@@ -877,7 +956,8 @@
     "visinska_razlika": "675/675",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/sesalac-slemen-sesalacka-pecina.gpx",
-    "detail_link": "https://pss.rs/terenipp/sesalac-slemen-sesalacka-pecina/"
+    "detail_link": "https://pss.rs/terenipp/sesalac-slemen-sesalacka-pecina/",
+    "kruzna": true
   },
   {
     "ime": "Sesalac – Tumba – Sesalačka pećina",
@@ -888,7 +968,8 @@
     "visinska_razlika": "636/636",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/sesalac-tumba-sesalacka-pecina.gpx",
-    "detail_link": "https://pss.rs/terenipp/sesalac-tumba-sesalacka-pecina/"
+    "detail_link": "https://pss.rs/terenipp/sesalac-tumba-sesalacka-pecina/",
+    "kruzna": true
   },
   {
     "ime": "Bajčetina – Gledićki Crni vrh – Bajčetina",
@@ -899,7 +980,8 @@
     "visinska_razlika": "431/431",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/bajcetina-gledicki-crni-vrh-bajcetina.gpx",
-    "detail_link": "https://pss.rs/terenipp/bajcetina-gledicki-crni-vrh-bajcetina/"
+    "detail_link": "https://pss.rs/terenipp/bajcetina-gledicki-crni-vrh-bajcetina/",
+    "kruzna": true
   },
   {
     "ime": "Planinarski dom Adžine Livade – Manastir Kamenac",
@@ -910,7 +992,8 @@
     "visinska_razlika": "617/617",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/planinarski-dom-adzine-livade-manastir-kamenac.gpx",
-    "detail_link": "https://pss.rs/terenipp/planinarski-dom-adzine-livade-manastir-kamenac/"
+    "detail_link": "https://pss.rs/terenipp/planinarski-dom-adzine-livade-manastir-kamenac/",
+    "kruzna": true
   },
   {
     "ime": "Žel. stanica Samari – Mravinjci",
@@ -921,7 +1004,8 @@
     "visinska_razlika": "982/982",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/zel-stanica-samari-mravinjci.gpx",
-    "detail_link": "https://pss.rs/terenipp/zel-st-samari-s-mravinjci-vrh-maglesa-zel-st-samari/"
+    "detail_link": "https://pss.rs/terenipp/zel-st-samari-s-mravinjci-vrh-maglesa-zel-st-samari/",
+    "kruzna": true
   },
   {
     "ime": "Ž. stanica Samari – planinarska kuća „Povlenski kućerak“",
@@ -932,7 +1016,8 @@
     "visinska_razlika": "962/310",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/z-stanica-samari-planinarska-kuca-povlenski-kucerak.gpx",
-    "detail_link": "https://pss.rs/terenipp/zel-st-samari-s-mravinjci-planinarska-kuca-povlenski-kucerak/"
+    "detail_link": "https://pss.rs/terenipp/zel-st-samari-s-mravinjci-planinarska-kuca-povlenski-kucerak/",
+    "kruzna": false
   },
   {
     "ime": "Taorska vrela – s. Radanovci – Taorska vrela",
@@ -943,7 +1028,8 @@
     "visinska_razlika": "430/430",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/taorska-vrela-s-radanovci-taorska-vrela.gpx",
-    "detail_link": "https://pss.rs/terenipp/taorska-vrela-s-radanovci-spomenik-zikici-jovanovicu-spancu-taorska-vrela/"
+    "detail_link": "https://pss.rs/terenipp/taorska-vrela-s-radanovci-spomenik-zikici-jovanovicu-spancu-taorska-vrela/",
+    "kruzna": true
   },
   {
     "ime": "Debelo Brdo – Pl. kuća „Povlenski kućerak“ – Jablanik",
@@ -954,7 +1040,8 @@
     "visinska_razlika": "420/377",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/debelo-brdo-pl-kuca-povlenski-kucerak-jablanik.gpx",
-    "detail_link": "https://pss.rs/terenipp/debelo-brdo-pl-kuca-povlenski-kucerak-jablanik/"
+    "detail_link": "https://pss.rs/terenipp/debelo-brdo-pl-kuca-povlenski-kucerak-jablanik/",
+    "kruzna": false
   },
   {
     "ime": "Mrka stena – Beden",
@@ -965,7 +1052,8 @@
     "visinska_razlika": "346/346",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/mrka-stena-beden.gpx",
-    "detail_link": "https://pss.rs/terenipp/mrka-stena-beden/"
+    "detail_link": "https://pss.rs/terenipp/mrka-stena-beden/",
+    "kruzna": true
   },
   {
     "ime": "4 izvora Povlena",
@@ -976,7 +1064,8 @@
     "visinska_razlika": "845/845",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/4-izvora-povlena.gpx",
-    "detail_link": "https://pss.rs/terenipp/4-izvora-povlena/"
+    "detail_link": "https://pss.rs/terenipp/4-izvora-povlena/",
+    "kruzna": true
   },
   {
     "ime": "3 vrha Povlena",
@@ -987,7 +1076,8 @@
     "visinska_razlika": "512/512",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/3-vrha-povlena.gpx",
-    "detail_link": "https://pss.rs/terenipp/3-vrha-povlena/"
+    "detail_link": "https://pss.rs/terenipp/3-vrha-povlena/",
+    "kruzna": true
   },
   {
     "ime": "Kanjon Kratovske reke",
@@ -998,7 +1088,8 @@
     "visinska_razlika": "150/315",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kanjon-kratovske-reke.gpx",
-    "detail_link": "https://pss.rs/terenipp/kanjon-kratovske-reke/"
+    "detail_link": "https://pss.rs/terenipp/kanjon-kratovske-reke/",
+    "kruzna": false
   },
   {
     "ime": "Banja – Banjsko brdo",
@@ -1009,7 +1100,8 @@
     "visinska_razlika": "957/957",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/banja-banjsko-brdo.gpx",
-    "detail_link": "https://pss.rs/terenipp/banja-banjsko-brdo/"
+    "detail_link": "https://pss.rs/terenipp/banja-banjsko-brdo/",
+    "kruzna": true
   },
   {
     "ime": "Bojanine vode – Sokolov kamen – Bojanine vode",
@@ -1020,7 +1112,8 @@
     "visinska_razlika": "645/645",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/bojanine-vode-sokolov-kamen-bojanine-vode.gpx",
-    "detail_link": "https://pss.rs/terenipp/bojanine-vode-sokolov-kamen-bojanine-vode/"
+    "detail_link": "https://pss.rs/terenipp/bojanine-vode-sokolov-kamen-bojanine-vode/",
+    "kruzna": true
   },
   {
     "ime": "Niška Banja – Devojački grob – Trem – Bojanine vode",
@@ -1031,7 +1124,8 @@
     "visinska_razlika": "2110/1512",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/niska-banja-devojacki-grob-trem-bojanine-vode.gpx",
-    "detail_link": "https://pss.rs/terenipp/niska-banja-devojacki-grob-trem-bojanine-vode/"
+    "detail_link": "https://pss.rs/terenipp/niska-banja-devojacki-grob-trem-bojanine-vode/",
+    "kruzna": false
   },
   {
     "ime": "Niška Banja – Koritnik – Rautovo – Niška Banja",
@@ -1042,7 +1136,8 @@
     "visinska_razlika": "651/652",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/niska-banja-koritnik-rautovo-niska-banja.gpx",
-    "detail_link": "https://pss.rs/terenipp/niska-banja-koritnik-rautovo-niska-banja/"
+    "detail_link": "https://pss.rs/terenipp/niska-banja-koritnik-rautovo-niska-banja/",
+    "kruzna": false
   },
   {
     "ime": "Suva trail – Niška Banja – Trem – Niška Banja",
@@ -1053,7 +1148,8 @@
     "visinska_razlika": "2436/2432",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/suva-trail-niska-banja-trem-niska-banja.gpx",
-    "detail_link": "https://pss.rs/terenipp/sokolov-put/"
+    "detail_link": "https://pss.rs/terenipp/sokolov-put/",
+    "kruzna": false
   },
   {
     "ime": "Sićevo – Ječava",
@@ -1064,7 +1160,8 @@
     "visinska_razlika": "305/222",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/sicevo-jecava.gpx",
-    "detail_link": "https://pss.rs/terenipp/sicevo-jecava/"
+    "detail_link": "https://pss.rs/terenipp/sicevo-jecava/",
+    "kruzna": false
   },
   {
     "ime": "Avala, staza 7",
@@ -1075,7 +1172,8 @@
     "visinska_razlika": "234/235",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/avala-staza-7.gpx",
-    "detail_link": "https://pss.rs/terenipp/avala-staza-7/"
+    "detail_link": "https://pss.rs/terenipp/avala-staza-7/",
+    "kruzna": false
   },
   {
     "ime": "Avala, staza 6",
@@ -1086,7 +1184,8 @@
     "visinska_razlika": "228/43",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/avala-staza-6.gpx",
-    "detail_link": "https://pss.rs/terenipp/avala-staza-6/"
+    "detail_link": "https://pss.rs/terenipp/avala-staza-6/",
+    "kruzna": false
   },
   {
     "ime": "Avala. staza 5",
@@ -1097,7 +1196,8 @@
     "visinska_razlika": "293/30",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/avala-staza-5.gpx",
-    "detail_link": "https://pss.rs/terenipp/avala-staza-5/"
+    "detail_link": "https://pss.rs/terenipp/avala-staza-5/",
+    "kruzna": false
   },
   {
     "ime": "Avala, staza 4",
@@ -1108,7 +1208,8 @@
     "visinska_razlika": "369/103",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/avala-staza-4.gpx",
-    "detail_link": "https://pss.rs/terenipp/avala-staza-4/"
+    "detail_link": "https://pss.rs/terenipp/avala-staza-4/",
+    "kruzna": false
   },
   {
     "ime": "Avala, staza 3",
@@ -1119,7 +1220,8 @@
     "visinska_razlika": "273/52",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/avala-staza-3.gpx",
-    "detail_link": "https://pss.rs/terenipp/avala-staza-3/"
+    "detail_link": "https://pss.rs/terenipp/avala-staza-3/",
+    "kruzna": false
   },
   {
     "ime": "Avala, staza 2",
@@ -1130,7 +1232,8 @@
     "visinska_razlika": "376/145",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/avala-staza-2.gpx",
-    "detail_link": "https://pss.rs/terenipp/avala-staza-2/"
+    "detail_link": "https://pss.rs/terenipp/avala-staza-2/",
+    "kruzna": false
   },
   {
     "ime": "Avala, staza 1",
@@ -1141,7 +1244,8 @@
     "visinska_razlika": "582/582",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/avala-staza-1.gpx",
-    "detail_link": "https://pss.rs/terenipp/avala-staza-1/"
+    "detail_link": "https://pss.rs/terenipp/avala-staza-1/",
+    "kruzna": true
   },
   {
     "ime": "Vodotoranj-Tresetište-Palić centar",
@@ -1152,7 +1256,8 @@
     "visinska_razlika": "25/25",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/vodotoranj-tresetiste-palic-centar.gpx",
-    "detail_link": "https://pss.rs/terenipp/vodotoranj-tresetiste-palic-centar/"
+    "detail_link": "https://pss.rs/terenipp/vodotoranj-tresetiste-palic-centar/",
+    "kruzna": true
   },
   {
     "ime": "Priboj – Tvrđava Jagat",
@@ -1163,7 +1268,8 @@
     "visinska_razlika": "530/0",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/priboj-tvrava-jagat.gpx",
-    "detail_link": "https://pss.rs/terenipp/mali-bic/"
+    "detail_link": "https://pss.rs/terenipp/mali-bic/",
+    "kruzna": false
   },
   {
     "ime": "Naselje-Polin potok-Lisa stena-Stan i Gradac pećina-Naselje",
@@ -1174,7 +1280,8 @@
     "visinska_razlika": "1104/1104",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/naselje-polin-potok-lisa-stena-stan-i-gradac-pecina-naselje.gpx",
-    "detail_link": "https://pss.rs/terenipp/naselje-polin-potok-lisa-stena-stan-i-gradac-pecina-naselje/"
+    "detail_link": "https://pss.rs/terenipp/naselje-polin-potok-lisa-stena-stan-i-gradac-pecina-naselje/",
+    "kruzna": true
   },
   {
     "ime": "Veliki Bič",
@@ -1185,7 +1292,8 @@
     "visinska_razlika": "1016/1016",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/veliki-bic.gpx",
-    "detail_link": "https://pss.rs/terenipp/veliki-bic/"
+    "detail_link": "https://pss.rs/terenipp/veliki-bic/",
+    "kruzna": true
   },
   {
     "ime": "Ritopek – Vinča",
@@ -1196,7 +1304,8 @@
     "visinska_razlika": "174/152",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/ritopek-vinca.gpx",
-    "detail_link": "https://pss.rs/terenipp/ritopek-vinca/"
+    "detail_link": "https://pss.rs/terenipp/ritopek-vinca/",
+    "kruzna": false
   },
   {
     "ime": "Bojčinska šuma",
@@ -1207,7 +1316,8 @@
     "visinska_razlika": "5/5",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/bojcinska-suma.gpx",
-    "detail_link": "https://pss.rs/terenipp/bojcinska-suma/"
+    "detail_link": "https://pss.rs/terenipp/bojcinska-suma/",
+    "kruzna": true
   },
   {
     "ime": "Edukativna staza",
@@ -1218,7 +1328,8 @@
     "visinska_razlika": "200/200",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/edukativna-staza.gpx",
-    "detail_link": "https://pss.rs/terenipp/pesacka-staza-jagodina-djurdjevo-brdo/"
+    "detail_link": "https://pss.rs/terenipp/pesacka-staza-jagodina-djurdjevo-brdo/",
+    "kruzna": true
   },
   {
     "ime": "Izvor reke Dubočice",
@@ -1229,7 +1340,8 @@
     "visinska_razlika": "497/387",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/izvor-reke-dubocice.gpx",
-    "detail_link": "https://pss.rs/terenipp/izvor-reke-dubocice/"
+    "detail_link": "https://pss.rs/terenipp/izvor-reke-dubocice/",
+    "kruzna": false
   },
   {
     "ime": "Veliki Vukan od Ždrela do manastira Reškovice",
@@ -1240,7 +1352,8 @@
     "visinska_razlika": "620/450",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/veliki-vukan-od-zdrela-do-manastira-reskovice.gpx",
-    "detail_link": "https://pss.rs/terenipp/veliki-vukan-od-zdrela-do-manastira-reskovice/"
+    "detail_link": "https://pss.rs/terenipp/veliki-vukan-od-zdrela-do-manastira-reskovice/",
+    "kruzna": false
   },
   {
     "ime": "Mali Vukan grebenom od Četiri lule",
@@ -1251,7 +1364,8 @@
     "visinska_razlika": "556/556",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/mali-vukan-grebenom-od-cetiri-lule.gpx",
-    "detail_link": "https://pss.rs/terenipp/mali-vukan-grebenom-od-cetiri-lule/"
+    "detail_link": "https://pss.rs/terenipp/mali-vukan-grebenom-od-cetiri-lule/",
+    "kruzna": true
   },
   {
     "ime": "Veliki Vranj od Krepoljina",
@@ -1262,7 +1376,8 @@
     "visinska_razlika": "630/630",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/veliki-vranj-od-krepoljina.gpx",
-    "detail_link": "https://pss.rs/terenipp/veliki-vranj-od-krepoljina/"
+    "detail_link": "https://pss.rs/terenipp/veliki-vranj-od-krepoljina/",
+    "kruzna": true
   },
   {
     "ime": "Veliki Sumorovac od Bistrice",
@@ -1273,7 +1388,8 @@
     "visinska_razlika": "627/627",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/veliki-sumorovac-od-bistrice.gpx",
-    "detail_link": "https://pss.rs/terenipp/veliki-sumorovac-od-bistrice/"
+    "detail_link": "https://pss.rs/terenipp/veliki-sumorovac-od-bistrice/",
+    "kruzna": true
   },
   {
     "ime": "Štubej od Ceremošnje",
@@ -1284,7 +1400,8 @@
     "visinska_razlika": "400/400",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/stubej-od-ceremosnje.gpx",
-    "detail_link": "https://pss.rs/terenipp/stubej-od-ceremosnje/"
+    "detail_link": "https://pss.rs/terenipp/stubej-od-ceremosnje/",
+    "kruzna": true
   },
   {
     "ime": "Strnjak – Trest",
@@ -1295,7 +1412,8 @@
     "visinska_razlika": "333/333",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/strnjak-trest.gpx",
-    "detail_link": "https://pss.rs/terenipp/strnjak-trest/"
+    "detail_link": "https://pss.rs/terenipp/strnjak-trest/",
+    "kruzna": true
   },
   {
     "ime": "Staza br. 11: Tetrebovac – Štekovci",
@@ -1306,7 +1424,8 @@
     "visinska_razlika": "617/617",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-11-tetrebovac-stekovci.gpx",
-    "detail_link": "https://pss.rs/terenipp/tetrebovac/"
+    "detail_link": "https://pss.rs/terenipp/tetrebovac/",
+    "kruzna": true
   },
   {
     "ime": "Ski centar „Tornik“ (Ribnica) – Vodice",
@@ -1317,7 +1436,8 @@
     "visinska_razlika": "327/379",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/ski-centar-tornik-ribnica-vodice.gpx",
-    "detail_link": "https://pss.rs/terenipp/ski-centar-tornik-ribnica-vodice/"
+    "detail_link": "https://pss.rs/terenipp/ski-centar-tornik-ribnica-vodice/",
+    "kruzna": false
   },
   {
     "ime": "Zlatibor – Tornik – Vodice",
@@ -1328,7 +1448,8 @@
     "visinska_razlika": "1007/918",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/zlatibor-tornik-vodice.gpx",
-    "detail_link": "https://pss.rs/terenipp/zlatibor-tornik-vodice/"
+    "detail_link": "https://pss.rs/terenipp/zlatibor-tornik-vodice/",
+    "kruzna": false
   },
   {
     "ime": "Veliki i Mali Vrtop – Gramada, Vlasina",
@@ -1339,7 +1460,8 @@
     "visinska_razlika": "601/601",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/veliki-i-mali-vrtop-gramada-vlasina.gpx",
-    "detail_link": "https://pss.rs/terenipp/veliki-i-mali-vrtop-gramada-vlasina/"
+    "detail_link": "https://pss.rs/terenipp/veliki-i-mali-vrtop-gramada-vlasina/",
+    "kruzna": true
   },
   {
     "ime": "„Čortanovačka magija“",
@@ -1350,7 +1472,8 @@
     "visinska_razlika": "381/381",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/cortanovacka-magija.gpx",
-    "detail_link": "https://pss.rs/terenipp/cortanovacka-magija/"
+    "detail_link": "https://pss.rs/terenipp/cortanovacka-magija/",
+    "kruzna": true
   },
   {
     "ime": "Memorijal „Mile Obradović“",
@@ -1361,7 +1484,8 @@
     "visinska_razlika": "650/650",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/memorijal-mile-obradovic.gpx",
-    "detail_link": "https://pss.rs/terenipp/memorijal-mile-obradovic/"
+    "detail_link": "https://pss.rs/terenipp/memorijal-mile-obradovic/",
+    "kruzna": true
   },
   {
     "ime": "Mečje stene",
@@ -1372,7 +1496,8 @@
     "visinska_razlika": "567/567",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/mecje-stene.gpx",
-    "detail_link": "https://pss.rs/terenipp/mecje-stene/"
+    "detail_link": "https://pss.rs/terenipp/mecje-stene/",
+    "kruzna": true
   },
   {
     "ime": "Banjica – Kusača",
@@ -1383,7 +1508,8 @@
     "visinska_razlika": "700/700",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/banjica-kusaca.gpx",
-    "detail_link": "https://pss.rs/terenipp/banjica-kusaca/"
+    "detail_link": "https://pss.rs/terenipp/banjica-kusaca/",
+    "kruzna": true
   },
   {
     "ime": "Đačka staza, Kanjon Trešnjice – Gornje Košlje",
@@ -1394,7 +1520,8 @@
     "visinska_razlika": "747/747",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/acka-staza-kanjon-tresnjice-gornje-koslje.gpx",
-    "detail_link": "https://pss.rs/terenipp/djacka-staza-kanjon-tresnjice-gornje-koslje/"
+    "detail_link": "https://pss.rs/terenipp/djacka-staza-kanjon-tresnjice-gornje-koslje/",
+    "kruzna": true
   },
   {
     "ime": "Tri manastira, Druga etapa: Ljubovija – Bele vode – Tornička Bobija",
@@ -1405,7 +1532,8 @@
     "visinska_razlika": "1263/411",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/tri-manastira-druga-etapa-ljubovija-bele-vode-tornicka-bobija.gpx",
-    "detail_link": "https://pss.rs/terenipp/tri-manastira-druga-etapa-ljubovija-bele-vode-tornicka-bobija/"
+    "detail_link": "https://pss.rs/terenipp/tri-manastira-druga-etapa-ljubovija-bele-vode-tornicka-bobija/",
+    "kruzna": false
   },
   {
     "ime": "Bobija (rudnik – vrh – Dobra voda – Razbojište)",
@@ -1416,7 +1544,8 @@
     "visinska_razlika": "591/361",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/bobija-rudnik-vrh-dobra-voda-razbojiste.gpx",
-    "detail_link": "https://pss.rs/terenipp/bobija-rudnik-vrh-dobra-voda-razbojiste/"
+    "detail_link": "https://pss.rs/terenipp/bobija-rudnik-vrh-dobra-voda-razbojiste/",
+    "kruzna": false
   },
   {
     "ime": "Tri manastira, Prva etapa: Ljubovija – Soko Grad",
@@ -1427,7 +1556,8 @@
     "visinska_razlika": "542/403",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/tri-manastira-prva-etapa-ljubovija-soko-grad.gpx",
-    "detail_link": "https://pss.rs/terenipp/tri-manastira-prva-etapa-ljubovija-soko-grad/"
+    "detail_link": "https://pss.rs/terenipp/tri-manastira-prva-etapa-ljubovija-soko-grad/",
+    "kruzna": false
   },
   {
     "ime": "Man. Raletinac – Kremenac – man. Manastirak – Bogalinac – Županjevac – Govor voda – man. Kalenić („Manastirska tura“)",
@@ -1438,7 +1568,8 @@
     "visinska_razlika": "1570/1400",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/man-raletinac-kremenac-man-manastirak-bogalinac-zupanjevac-govor-voda-man-kaleni.gpx",
-    "detail_link": "https://pss.rs/terenipp/man-raletinac-kremenac-man-manastirak-bogalinac-zupanjevac-govor-voda-man-kalenic-manastirska-tura/"
+    "detail_link": "https://pss.rs/terenipp/man-raletinac-kremenac-man-manastirak-bogalinac-zupanjevac-govor-voda-man-kalenic-manastirska-tura/",
+    "kruzna": false
   },
   {
     "ime": "PD Grza – Veliki Kozji Rog – Vis – Crni vrh – Javorak – PD Grza",
@@ -1449,7 +1580,8 @@
     "visinska_razlika": "1230/1230",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/pd-grza-veliki-kozji-rog-vis-crni-vrh-javorak-pd-grza.gpx",
-    "detail_link": "https://pss.rs/terenipp/pd-grza-veliki-kozji-rog-vis-crni-vrh-javorak-pd-grza/"
+    "detail_link": "https://pss.rs/terenipp/pd-grza-veliki-kozji-rog-vis-crni-vrh-javorak-pd-grza/",
+    "kruzna": true
   },
   {
     "ime": "Bukorovac – kanjon Voljevice – Bešnjaja (selo) – Bukovorac",
@@ -1460,7 +1592,8 @@
     "visinska_razlika": "970/970",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/bukorovac-kanjon-voljevice-besnjaja-selo-bukovorac.gpx",
-    "detail_link": "https://pss.rs/terenipp/bukorovac-kanjon-voljevice-besnjaja-selo-bukovorac/"
+    "detail_link": "https://pss.rs/terenipp/bukorovac-kanjon-voljevice-besnjaja-selo-bukovorac/",
+    "kruzna": true
   },
   {
     "ime": "Leskovac – Kotlenjača – Gružansko jezero – Knić",
@@ -1471,7 +1604,8 @@
     "visinska_razlika": "1260/1230",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/leskovac-kotlenjaca-gruzansko-jezero-knic.gpx",
-    "detail_link": "https://pss.rs/terenipp/leskovac-kotlenjaca-gruzansko-jezero-knic/"
+    "detail_link": "https://pss.rs/terenipp/leskovac-kotlenjaca-gruzansko-jezero-knic/",
+    "kruzna": false
   },
   {
     "ime": "Manastir Ravanica – Bostava – Manastir Ravanica",
@@ -1482,7 +1616,8 @@
     "visinska_razlika": "750/750",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/manastir-ravanica-bostava-manastir-ravanica.gpx",
-    "detail_link": "https://pss.rs/terenipp/manastir-ravanica-bostava-manastir-ravanica/"
+    "detail_link": "https://pss.rs/terenipp/manastir-ravanica-bostava-manastir-ravanica/",
+    "kruzna": true
   },
   {
     "ime": "Aranđelovac – Bukulja – Garaško jezero – Bukulja – Aranđelovac",
@@ -1493,7 +1628,8 @@
     "visinska_razlika": "1114/1114",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/aranelovac-bukulja-garasko-jezero-bukulja-aranelovac.gpx",
-    "detail_link": "https://pss.rs/terenipp/arandjelovac-bukulja-garasko-jezero-bukulja-arandjelovac/"
+    "detail_link": "https://pss.rs/terenipp/arandjelovac-bukulja-garasko-jezero-bukulja-arandjelovac/",
+    "kruzna": true
   },
   {
     "ime": "Kalafat – Tvrđava Niš",
@@ -1504,7 +1640,8 @@
     "visinska_razlika": "149/811",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kalafat-tvrava-nis.gpx",
-    "detail_link": "https://pss.rs/terenipp/kalafat-tvrdjava-nis/"
+    "detail_link": "https://pss.rs/terenipp/kalafat-tvrdjava-nis/",
+    "kruzna": false
   },
   {
     "ime": "Koritnjak – Devojački grob",
@@ -1515,7 +1652,8 @@
     "visinska_razlika": "1398/697",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/koritnjak-devojacki-grob.gpx",
-    "detail_link": "https://pss.rs/terenipp/koritnjak-devojacki-grob/"
+    "detail_link": "https://pss.rs/terenipp/koritnjak-devojacki-grob/",
+    "kruzna": false
   },
   {
     "ime": "Ostrovica – Oblik",
@@ -1526,7 +1664,8 @@
     "visinska_razlika": "556/554",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/ostrovica-oblik.gpx",
-    "detail_link": "https://pss.rs/terenipp/ostrovica-oblik/"
+    "detail_link": "https://pss.rs/terenipp/ostrovica-oblik/",
+    "kruzna": false
   },
   {
     "ime": "Knez Selo-Gradac-Sliva-Kalafat-man.Sv.Jovana-Gornji Matejevac",
@@ -1537,7 +1676,8 @@
     "visinska_razlika": "660/758",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/knez-selo-gradac-sliva-kalafat-mansvjovana-gornji-matejevac.gpx",
-    "detail_link": "https://pss.rs/terenipp/knez-selo-gradac-sliva-kalafat-man-sv-jovana-gornji-matejevac/"
+    "detail_link": "https://pss.rs/terenipp/knez-selo-gradac-sliva-kalafat-man-sv-jovana-gornji-matejevac/",
+    "kruzna": false
   },
   {
     "ime": "Čitluk – Krstatac",
@@ -1548,7 +1688,8 @@
     "visinska_razlika": "585/580",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/citluk-krstatac.gpx",
-    "detail_link": "https://pss.rs/terenipp/citluk-krstatac/"
+    "detail_link": "https://pss.rs/terenipp/citluk-krstatac/",
+    "kruzna": false
   },
   {
     "ime": "Milušinac – Krstatac",
@@ -1559,7 +1700,8 @@
     "visinska_razlika": "620/0",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/milusinac-krstatac.gpx",
-    "detail_link": "https://pss.rs/terenipp/milusinac-krstatac-2/"
+    "detail_link": "https://pss.rs/terenipp/milusinac-krstatac-2/",
+    "kruzna": false
   },
   {
     "ime": "Milušinac – Slemen",
@@ -1570,7 +1712,8 @@
     "visinska_razlika": "649/0",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/milusinac-slemen.gpx",
-    "detail_link": "https://pss.rs/terenipp/milusinac-slemen-2/"
+    "detail_link": "https://pss.rs/terenipp/milusinac-slemen-2/",
+    "kruzna": false
   },
   {
     "ime": "Sesalac – Sesalačka pećina",
@@ -1581,7 +1724,8 @@
     "visinska_razlika": "165/0",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/sesalac-sesalacka-pecina.gpx",
-    "detail_link": "https://pss.rs/terenipp/sesalac-sesalacka-pecina-2/"
+    "detail_link": "https://pss.rs/terenipp/sesalac-sesalacka-pecina-2/",
+    "kruzna": false
   },
   {
     "ime": "Vlasina – Oštra čuka",
@@ -1592,7 +1736,8 @@
     "visinska_razlika": "146/25",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/vlasina-ostra-cuka.gpx",
-    "detail_link": "https://pss.rs/terenipp/vlasina-ostra-cuka/"
+    "detail_link": "https://pss.rs/terenipp/vlasina-ostra-cuka/",
+    "kruzna": false
   },
   {
     "ime": "Sokobanja – Ripaljka",
@@ -1603,7 +1748,8 @@
     "visinska_razlika": "140/140",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/sokobanja-ripaljka.gpx",
-    "detail_link": "https://pss.rs/terenipp/sokobanja-ripaljka/"
+    "detail_link": "https://pss.rs/terenipp/sokobanja-ripaljka/",
+    "kruzna": true
   },
   {
     "ime": "Kragujevačka planinarska staza Žeželj-Bešnjaja",
@@ -1614,7 +1760,8 @@
     "visinska_razlika": "773/696",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kragujevacka-planinarska-staza-zezelj-besnjaja.gpx",
-    "detail_link": "https://pss.rs/terenipp/kragujevacka-planinarska-staza-zezelj-besnjaja/"
+    "detail_link": "https://pss.rs/terenipp/kragujevacka-planinarska-staza-zezelj-besnjaja/",
+    "kruzna": false
   },
   {
     "ime": "Vlasina – Leskovik",
@@ -1625,7 +1772,8 @@
     "visinska_razlika": "235/0",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/vlasina-leskovik.gpx",
-    "detail_link": "https://pss.rs/terenipp/vlasina-leskovik-2/"
+    "detail_link": "https://pss.rs/terenipp/vlasina-leskovik-2/",
+    "kruzna": false
   },
   {
     "ime": "Oko Oštre čuke",
@@ -1636,7 +1784,8 @@
     "visinska_razlika": "1065/578",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/oko-ostre-cuke.gpx",
-    "detail_link": "https://pss.rs/terenipp/oko-ostre-cuke/"
+    "detail_link": "https://pss.rs/terenipp/oko-ostre-cuke/",
+    "kruzna": false
   },
   {
     "ime": "Maljica",
@@ -1647,7 +1796,8 @@
     "visinska_razlika": "505/494",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/maljica.gpx",
-    "detail_link": "https://pss.rs/terenipp/maljica/"
+    "detail_link": "https://pss.rs/terenipp/maljica/",
+    "kruzna": false
   },
   {
     "ime": "Vetren – polukružna staza",
@@ -1658,7 +1808,8 @@
     "visinska_razlika": "350/353",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/vetren-polukruzna-staza.gpx",
-    "detail_link": "https://pss.rs/terenipp/vetren-polukruzna-staza/"
+    "detail_link": "https://pss.rs/terenipp/vetren-polukruzna-staza/",
+    "kruzna": false
   },
   {
     "ime": "Vrška čuka – Vlaški do – kružna staza",
@@ -1669,7 +1820,8 @@
     "visinska_razlika": "350/462",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/vrska-cuka-vlaski-do-kruzna-staza.gpx",
-    "detail_link": "https://pss.rs/terenipp/vrska-cuka-vlaski-do-kruzna-staza/"
+    "detail_link": "https://pss.rs/terenipp/vrska-cuka-vlaski-do-kruzna-staza/",
+    "kruzna": false
   },
   {
     "ime": "Marinovac – Glogovački vrh",
@@ -1680,7 +1832,8 @@
     "visinska_razlika": "714/714",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/marinovac-glogovacki-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/marinovac-glogovacki-vrh/"
+    "detail_link": "https://pss.rs/terenipp/marinovac-glogovacki-vrh/",
+    "kruzna": true
   },
   {
     "ime": "Koželj – Ledenički vrh",
@@ -1691,7 +1844,8 @@
     "visinska_razlika": "701/701",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kozelj-ledenicki-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/kozelj-ledenicki-vrh/"
+    "detail_link": "https://pss.rs/terenipp/kozelj-ledenicki-vrh/",
+    "kruzna": true
   },
   {
     "ime": "Trubarevac – Bovansko jezero",
@@ -1702,7 +1856,8 @@
     "visinska_razlika": "565/565",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/trubarevac-bovansko-jezero.gpx",
-    "detail_link": "https://pss.rs/terenipp/trubarevac-bovansko-jezero/"
+    "detail_link": "https://pss.rs/terenipp/trubarevac-bovansko-jezero/",
+    "kruzna": true
   },
   {
     "ime": "Milušinac – Krstatac – Bogova vrata",
@@ -1713,7 +1868,8 @@
     "visinska_razlika": "724/724",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/milusinac-krstatac-bogova-vrata.gpx",
-    "detail_link": "https://pss.rs/terenipp/krstatac-bogova-vrata/"
+    "detail_link": "https://pss.rs/terenipp/krstatac-bogova-vrata/",
+    "kruzna": true
   },
   {
     "ime": "Etno naselje Sunčana reka – Kam – Crni vrh (Gučevo)",
@@ -1724,7 +1880,8 @@
     "visinska_razlika": "708/57",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/etno-naselje-suncana-reka-kam-crni-vrh-gucevo.gpx",
-    "detail_link": "https://pss.rs/terenipp/etno-naselje-suncana-reka-kam-crni-vrh-gucevo/"
+    "detail_link": "https://pss.rs/terenipp/etno-naselje-suncana-reka-kam-crni-vrh-gucevo/",
+    "kruzna": false
   },
   {
     "ime": "Tri česme – Grabovci – Kam – Crni vrh (Gučevo)",
@@ -1735,7 +1892,8 @@
     "visinska_razlika": "688/54",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/tri-cesme-grabovci-kam-crni-vrh-gucevo.gpx",
-    "detail_link": "https://pss.rs/terenipp/tri-cesme-grabovci-kam-crni-vrh-gucevo/"
+    "detail_link": "https://pss.rs/terenipp/tri-cesme-grabovci-kam-crni-vrh-gucevo/",
+    "kruzna": false
   },
   {
     "ime": "Tri česme – Koviljačka kosa – Crni vrh (Gučevo)",
@@ -1746,7 +1904,8 @@
     "visinska_razlika": "690/42",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/tri-cesme-koviljacka-kosa-crni-vrh-gucevo.gpx",
-    "detail_link": "https://pss.rs/terenipp/tri-cesme-koviljacka-kosa-crni-vrh-gucevo/"
+    "detail_link": "https://pss.rs/terenipp/tri-cesme-koviljacka-kosa-crni-vrh-gucevo/",
+    "kruzna": false
   },
   {
     "ime": "Beloinje – Pleš – Beloinje",
@@ -1757,7 +1916,8 @@
     "visinska_razlika": "842/842",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/beloinje-ples-beloinje.gpx",
-    "detail_link": "https://pss.rs/terenipp/beloinje-ples-beloinje/"
+    "detail_link": "https://pss.rs/terenipp/beloinje-ples-beloinje/",
+    "kruzna": true
   },
   {
     "ime": "Rtanj",
@@ -1768,7 +1928,8 @@
     "visinska_razlika": "1207/971",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/rtanj.gpx",
-    "detail_link": "https://pss.rs/terenipp/rtanj/"
+    "detail_link": "https://pss.rs/terenipp/rtanj/",
+    "kruzna": false
   },
   {
     "ime": "Niševačka klisura",
@@ -1779,7 +1940,8 @@
     "visinska_razlika": "203/287",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/nisevacka-klisura.gpx",
-    "detail_link": "https://pss.rs/terenipp/nisevacka-klisura/"
+    "detail_link": "https://pss.rs/terenipp/nisevacka-klisura/",
+    "kruzna": false
   },
   {
     "ime": "Prekonoška pećina",
@@ -1790,7 +1952,8 @@
     "visinska_razlika": "243/243",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/prekonoska-pecina.gpx",
-    "detail_link": "https://pss.rs/terenipp/prekonoska-pecina/"
+    "detail_link": "https://pss.rs/terenipp/prekonoska-pecina/",
+    "kruzna": true
   },
   {
     "ime": "Od manastira Gornjak do Krupajskog vrela",
@@ -1801,7 +1964,8 @@
     "visinska_razlika": "845/795",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/od-manastira-gornjak-do-krupajskog-vrela.gpx",
-    "detail_link": "https://pss.rs/terenipp/od-manastira-gornjak-do-krupajskog-vrela/"
+    "detail_link": "https://pss.rs/terenipp/od-manastira-gornjak-do-krupajskog-vrela/",
+    "kruzna": false
   },
   {
     "ime": "Veliki Vukan od Ždrela",
@@ -1812,7 +1976,8 @@
     "visinska_razlika": "620/620",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/veliki-vukan-od-zdrela.gpx",
-    "detail_link": "https://pss.rs/terenipp/veliki-vukan-od-zdrela/"
+    "detail_link": "https://pss.rs/terenipp/veliki-vukan-od-zdrela/",
+    "kruzna": true
   },
   {
     "ime": "Mali Vukan od Četiri lule do manastira Ždrelo",
@@ -1823,7 +1988,8 @@
     "visinska_razlika": "556/476",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/mali-vukan-od-cetiri-lule-do-manastira-zdrelo.gpx",
-    "detail_link": "https://pss.rs/terenipp/mali-vukan-od-cetiri-lule-do-manastira-zdrelo/"
+    "detail_link": "https://pss.rs/terenipp/mali-vukan-od-cetiri-lule-do-manastira-zdrelo/",
+    "kruzna": false
   },
   {
     "ime": "Kružna staza Ježevac",
@@ -1834,7 +2000,8 @@
     "visinska_razlika": "570/582",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kruzna-staza-jezevac.gpx",
-    "detail_link": "https://pss.rs/terenipp/kruzna-staza-jezevac/"
+    "detail_link": "https://pss.rs/terenipp/kruzna-staza-jezevac/",
+    "kruzna": false
   },
   {
     "ime": "Mali i Veliki Vukan od doma Ždrelo",
@@ -1845,7 +2012,8 @@
     "visinska_razlika": "710/710",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/mali-i-veliki-vukan-od-doma-zdrelo.gpx",
-    "detail_link": "https://pss.rs/terenipp/mali-i-veliki-vukan-od-doma-zdrelo/"
+    "detail_link": "https://pss.rs/terenipp/mali-i-veliki-vukan-od-doma-zdrelo/",
+    "kruzna": true
   },
   {
     "ime": "Homoljski planinarski polumaraton",
@@ -1856,7 +2024,8 @@
     "visinska_razlika": "800/800",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/homoljski-planinarski-polumaraton.gpx",
-    "detail_link": "https://pss.rs/terenipp/homoljski-planinarski-polumaraton/"
+    "detail_link": "https://pss.rs/terenipp/homoljski-planinarski-polumaraton/",
+    "kruzna": true
   },
   {
     "ime": "Homoljski planinarski maraton",
@@ -1867,7 +2036,8 @@
     "visinska_razlika": "1800/1800",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/homoljski-planinarski-maraton.gpx",
-    "detail_link": "https://pss.rs/terenipp/homoljski-planinarski-maraton/"
+    "detail_link": "https://pss.rs/terenipp/homoljski-planinarski-maraton/",
+    "kruzna": true
   },
   {
     "ime": "Ježevac, Manastir Gornjak-Lalin kladenac",
@@ -1878,7 +2048,8 @@
     "visinska_razlika": "498/512",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/jezevac-manastir-gornjak-lalin-kladenac.gpx",
-    "detail_link": "https://pss.rs/terenipp/jezevac-manastir-gornjak-lalin-kladenac/"
+    "detail_link": "https://pss.rs/terenipp/jezevac-manastir-gornjak-lalin-kladenac/",
+    "kruzna": false
   },
   {
     "ime": "Ježevac preko Kozjeg Grba",
@@ -1889,7 +2060,8 @@
     "visinska_razlika": "517/498",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/jezevac-preko-kozjeg-grba.gpx",
-    "detail_link": "https://pss.rs/terenipp/jezevac-preko-kozjeg-grba/"
+    "detail_link": "https://pss.rs/terenipp/jezevac-preko-kozjeg-grba/",
+    "kruzna": false
   },
   {
     "ime": "Veliki Vukan od manastira Gornjak do izviđačkog doma u Ždrelu",
@@ -1900,7 +2072,8 @@
     "visinska_razlika": "640/615",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/veliki-vukan-od-manastira-gornjak-do-izviackog-doma-u-zdrelu.gpx",
-    "detail_link": "https://pss.rs/terenipp/veliki-vukan-od-manastira-gornjak-do-izvidjackog-doma-u-zdrelu/"
+    "detail_link": "https://pss.rs/terenipp/veliki-vukan-od-manastira-gornjak-do-izvidjackog-doma-u-zdrelu/",
+    "kruzna": false
   },
   {
     "ime": "Šarbanovac – V. Porica – Baba",
@@ -1911,7 +2084,8 @@
     "visinska_razlika": "781/779",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/sarbanovac-v-porica-baba.gpx",
-    "detail_link": "https://pss.rs/terenipp/sarbanovac-v-porica-baba/"
+    "detail_link": "https://pss.rs/terenipp/sarbanovac-v-porica-baba/",
+    "kruzna": false
   },
   {
     "ime": "Gola planina",
@@ -1922,7 +2096,8 @@
     "visinska_razlika": "583/17",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/gola-planina.gpx",
-    "detail_link": "https://pss.rs/terenipp/sarbanovac-gola-planina/"
+    "detail_link": "https://pss.rs/terenipp/sarbanovac-gola-planina/",
+    "kruzna": false
   },
   {
     "ime": "Klisura Izgarske reke – „Dikulićeva staza“",
@@ -1933,7 +2108,8 @@
     "visinska_razlika": "572/566",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/klisura-izgarske-reke-dikuliceva-staza.gpx",
-    "detail_link": "https://pss.rs/terenipp/klisura-izgarske-reke-dikuliceva-staza/"
+    "detail_link": "https://pss.rs/terenipp/klisura-izgarske-reke-dikuliceva-staza/",
+    "kruzna": false
   },
   {
     "ime": "Tomićeva koliba – jama Ledenica",
@@ -1944,7 +2120,8 @@
     "visinska_razlika": "102/0",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/tomiceva-koliba-jama-ledenica.gpx",
-    "detail_link": "https://pss.rs/terenipp/tomiceva-koliba-jama-ledenica/"
+    "detail_link": "https://pss.rs/terenipp/tomiceva-koliba-jama-ledenica/",
+    "kruzna": false
   },
   {
     "ime": "Mužinac – Tomićeva koliba (podnožje Rtnja)",
@@ -1955,7 +2132,8 @@
     "visinska_razlika": "316/18",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/muzinac-tomiceva-koliba-podnozje-rtnja.gpx",
-    "detail_link": "https://pss.rs/terenipp/muzinac-tomiceva-koliba-podnozje-rtnja/"
+    "detail_link": "https://pss.rs/terenipp/muzinac-tomiceva-koliba-podnozje-rtnja/",
+    "kruzna": false
   },
   {
     "ime": "Tri bunara na Devici – Izvor Moravice",
@@ -1966,7 +2144,8 @@
     "visinska_razlika": "942/989",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/tri-bunara-na-devici-izvor-moravice.gpx",
-    "detail_link": "https://pss.rs/terenipp/tri-bunara-na-devici-izvor-moravice/"
+    "detail_link": "https://pss.rs/terenipp/tri-bunara-na-devici-izvor-moravice/",
+    "kruzna": false
   },
   {
     "ime": "Velika i Mala Propast na Devici",
@@ -1977,7 +2156,8 @@
     "visinska_razlika": "851/851",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/velika-i-mala-propast-na-devici.gpx",
-    "detail_link": "https://pss.rs/terenipp/velika-i-mala-propast-na-devici/"
+    "detail_link": "https://pss.rs/terenipp/velika-i-mala-propast-na-devici/",
+    "kruzna": true
   },
   {
     "ime": "Kanjon Ždrelo na Devici (Levovik)",
@@ -1988,7 +2168,8 @@
     "visinska_razlika": "759/762",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kanjon-zdrelo-na-devici-levovik.gpx",
-    "detail_link": "https://pss.rs/terenipp/kanjon-zdrelo-na-devici-levovik/"
+    "detail_link": "https://pss.rs/terenipp/kanjon-zdrelo-na-devici-levovik/",
+    "kruzna": false
   },
   {
     "ime": "Ćirin prolaz – Gradište – Pleš",
@@ -1999,7 +2180,8 @@
     "visinska_razlika": "1017/0",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/cirin-prolaz-gradiste-ples.gpx",
-    "detail_link": "https://pss.rs/terenipp/cirin-prolaz-gradiste-ples/"
+    "detail_link": "https://pss.rs/terenipp/cirin-prolaz-gradiste-ples/",
+    "kruzna": false
   },
   {
     "ime": "Krupac – Zeleni vrh",
@@ -2010,7 +2192,8 @@
     "visinska_razlika": "1084/0",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/krupac-zeleni-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/krupac-zeleni-vrh/"
+    "detail_link": "https://pss.rs/terenipp/krupac-zeleni-vrh/",
+    "kruzna": false
   },
   {
     "ime": "Kravlje – Pećurina – Ljuti vrh",
@@ -2021,7 +2204,8 @@
     "visinska_razlika": "483/0",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kravlje-pecurina-ljuti-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/kravlje-pecurina-ljuti-vrh/"
+    "detail_link": "https://pss.rs/terenipp/kravlje-pecurina-ljuti-vrh/",
+    "kruzna": false
   },
   {
     "ime": "Kravlje – Goli vrh",
@@ -2032,7 +2216,8 @@
     "visinska_razlika": "421/0",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kravlje-goli-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/kravlje-goli-vrh/"
+    "detail_link": "https://pss.rs/terenipp/kravlje-goli-vrh/",
+    "kruzna": false
   },
   {
     "ime": "Kamenica – Srećkovo vrelo – Kamenička karaula",
@@ -2043,7 +2228,8 @@
     "visinska_razlika": "416/0",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kamenica-sreckovo-vrelo-kamenicka-karaula.gpx",
-    "detail_link": "https://pss.rs/terenipp/kamenica-sreckovo-vrelo-kamenicka-karaula/"
+    "detail_link": "https://pss.rs/terenipp/kamenica-sreckovo-vrelo-kamenicka-karaula/",
+    "kruzna": false
   },
   {
     "ime": "Cerje – Ljuti vrh – Provalija",
@@ -2054,7 +2240,8 @@
     "visinska_razlika": "346/346",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/cerje-ljuti-vrh-provalija.gpx",
-    "detail_link": "https://pss.rs/terenipp/cerje-ljuti-vrh-provalija/"
+    "detail_link": "https://pss.rs/terenipp/cerje-ljuti-vrh-provalija/",
+    "kruzna": true
   },
   {
     "ime": "Cerje – Goli vrh – Debeli vrh",
@@ -2065,7 +2252,8 @@
     "visinska_razlika": "335/335",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/cerje-goli-vrh-debeli-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/cerje-goli-vrh-debeli-vrh/"
+    "detail_link": "https://pss.rs/terenipp/cerje-goli-vrh-debeli-vrh/",
+    "kruzna": true
   },
   {
     "ime": "Veliki Vrtop – Golemo Stražište",
@@ -2076,7 +2264,8 @@
     "visinska_razlika": "1149/0",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/veliki-vrtop-golemo-straziste.gpx",
-    "detail_link": "https://pss.rs/terenipp/veliki-vrtop-golemo-straziste/"
+    "detail_link": "https://pss.rs/terenipp/veliki-vrtop-golemo-straziste/",
+    "kruzna": false
   },
   {
     "ime": "Veliki Krčimir – Litica",
@@ -2087,7 +2276,8 @@
     "visinska_razlika": "1163/0",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/veliki-krcimir-litica.gpx",
-    "detail_link": "https://pss.rs/terenipp/veliki-krcimir-litica/"
+    "detail_link": "https://pss.rs/terenipp/veliki-krcimir-litica/",
+    "kruzna": false
   },
   {
     "ime": "Taskovići – Crni kamen",
@@ -2098,7 +2288,8 @@
     "visinska_razlika": "---",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/taskovici-crni-kamen.gpx",
-    "detail_link": "https://pss.rs/terenipp/taskovici-crni-kamen/"
+    "detail_link": "https://pss.rs/terenipp/taskovici-crni-kamen/",
+    "kruzna": false
   },
   {
     "ime": "Donja Studena – Trem",
@@ -2109,7 +2300,8 @@
     "visinska_razlika": "1445/0",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/donja-studena-trem.gpx",
-    "detail_link": "https://pss.rs/terenipp/donja-studena-trem/"
+    "detail_link": "https://pss.rs/terenipp/donja-studena-trem/",
+    "kruzna": false
   },
   {
     "ime": "Donja Koritnica – Pasarelo",
@@ -2120,7 +2312,8 @@
     "visinska_razlika": "1122/0",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/donja-koritnica-pasarelo.gpx",
-    "detail_link": "https://pss.rs/terenipp/d-koritnica-pasarelo/"
+    "detail_link": "https://pss.rs/terenipp/d-koritnica-pasarelo/",
+    "kruzna": false
   },
   {
     "ime": "Divljana – Pasarelo",
@@ -2131,7 +2324,8 @@
     "visinska_razlika": "1072/0",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/divljana-pasarelo.gpx",
-    "detail_link": "https://pss.rs/terenipp/divljana-pasarelo/"
+    "detail_link": "https://pss.rs/terenipp/divljana-pasarelo/",
+    "kruzna": false
   },
   {
     "ime": "Bežište – Pasarelo",
@@ -2142,7 +2336,8 @@
     "visinska_razlika": "1072/0",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/beziste-pasarelo.gpx",
-    "detail_link": "https://pss.rs/terenipp/beziste-pasarelo/"
+    "detail_link": "https://pss.rs/terenipp/beziste-pasarelo/",
+    "kruzna": false
   },
   {
     "ime": "Obalom Jegričke",
@@ -2153,7 +2348,8 @@
     "visinska_razlika": "76/76",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/obalom-jegricke.gpx",
-    "detail_link": "https://pss.rs/terenipp/obalom-jegricke/"
+    "detail_link": "https://pss.rs/terenipp/obalom-jegricke/",
+    "kruzna": true
   },
   {
     "ime": "Bukovački maraton – Velika staza",
@@ -2164,7 +2360,8 @@
     "visinska_razlika": "1350/1350",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/bukovacki-maraton-velika-staza.gpx",
-    "detail_link": "https://pss.rs/terenipp/bukovacki-maraton-velika-staza/"
+    "detail_link": "https://pss.rs/terenipp/bukovacki-maraton-velika-staza/",
+    "kruzna": true
   },
   {
     "ime": "Bukovački maraton – Srednja staza",
@@ -2175,7 +2372,8 @@
     "visinska_razlika": "980/980",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/bukovacki-maraton-srednja-staza.gpx",
-    "detail_link": "https://pss.rs/terenipp/bukovacki-maraton-srednja-staza/"
+    "detail_link": "https://pss.rs/terenipp/bukovacki-maraton-srednja-staza/",
+    "kruzna": true
   },
   {
     "ime": "Bukovački maraton – Osnovna staza",
@@ -2186,7 +2384,8 @@
     "visinska_razlika": "580/580",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/bukovacki-maraton-osnovna-staza.gpx",
-    "detail_link": "https://pss.rs/terenipp/bukovacki-maraton-osnovna-staza/"
+    "detail_link": "https://pss.rs/terenipp/bukovacki-maraton-osnovna-staza/",
+    "kruzna": true
   },
   {
     "ime": "Sretenjski susreti / Koprivnica – Veliki Drenovac",
@@ -2197,7 +2396,8 @@
     "visinska_razlika": "539/479",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/sretenjski-susreti-koprivnica-veliki-drenovac.gpx",
-    "detail_link": "https://pss.rs/terenipp/sretenjski-susreti-koprivnica-v-drenovac/"
+    "detail_link": "https://pss.rs/terenipp/sretenjski-susreti-koprivnica-v-drenovac/",
+    "kruzna": false
   },
   {
     "ime": "Koviljača / Stanci – Lipovac",
@@ -2208,7 +2408,8 @@
     "visinska_razlika": "403/145",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/koviljaca-stanci-lipovac.gpx",
-    "detail_link": "https://pss.rs/terenipp/koviljaca-stanci-lipovac/"
+    "detail_link": "https://pss.rs/terenipp/koviljaca-stanci-lipovac/",
+    "kruzna": false
   },
   {
     "ime": "Via militaris / Lipovac – Bovansko jezero",
@@ -2219,7 +2420,8 @@
     "visinska_razlika": "404/459",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/via-militaris-lipovac-bovansko-jezero.gpx",
-    "detail_link": "https://pss.rs/terenipp/via-militaris-lipovac-bovansko-jezero/"
+    "detail_link": "https://pss.rs/terenipp/via-militaris-lipovac-bovansko-jezero/",
+    "kruzna": false
   },
   {
     "ime": "Pozdrav proleću / Aleksinac – Sokobanja (Ripaljka)",
@@ -2230,7 +2432,8 @@
     "visinska_razlika": "837/499",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/pozdrav-prolecu-aleksinac-sokobanja-ripaljka.gpx",
-    "detail_link": "https://pss.rs/terenipp/pozdrav-prolecu-aleksinac-sokobanja-ripaljka/"
+    "detail_link": "https://pss.rs/terenipp/pozdrav-prolecu-aleksinac-sokobanja-ripaljka/",
+    "kruzna": false
   },
   {
     "ime": "Leskovik – kružna staza",
@@ -2241,7 +2444,8 @@
     "visinska_razlika": "780/780",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/leskovik-kruzna-staza.gpx",
-    "detail_link": "https://pss.rs/terenipp/leskovik-kruzna-staza/"
+    "detail_link": "https://pss.rs/terenipp/leskovik-kruzna-staza/",
+    "kruzna": true
   },
   {
     "ime": "Subjel – Divčibare",
@@ -2252,7 +2456,8 @@
     "visinska_razlika": "730/680",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/subjel-divcibare.gpx",
-    "detail_link": "https://pss.rs/terenipp/subjel-divcibare/"
+    "detail_link": "https://pss.rs/terenipp/subjel-divcibare/",
+    "kruzna": false
   },
   {
     "ime": "Koštunići – Danilov vrh",
@@ -2263,7 +2468,8 @@
     "visinska_razlika": "260/90",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kostunici-danilov-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/kostunici-danilov-vrh/"
+    "detail_link": "https://pss.rs/terenipp/kostunici-danilov-vrh/",
+    "kruzna": false
   },
   {
     "ime": "Takovo – Rajac (Pl. Dom)",
@@ -2274,7 +2480,8 @@
     "visinska_razlika": "610/330",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/takovo-rajac-pl-dom.gpx",
-    "detail_link": "https://pss.rs/terenipp/takovo-rajac-pl-dom/"
+    "detail_link": "https://pss.rs/terenipp/takovo-rajac-pl-dom/",
+    "kruzna": false
   },
   {
     "ime": "Banja Vrujci – Pl.Dom na Rajcu",
@@ -2285,7 +2492,8 @@
     "visinska_razlika": "1100/650",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/banja-vrujci-pldom-na-rajcu.gpx",
-    "detail_link": "https://pss.rs/terenipp/banja-vrujci-pl-dom-na-rajcu/"
+    "detail_link": "https://pss.rs/terenipp/banja-vrujci-pl-dom-na-rajcu/",
+    "kruzna": false
   },
   {
     "ime": "Ljig (centar) – Rajac (Čika Duškov pl.dom)",
@@ -2296,7 +2504,8 @@
     "visinska_razlika": "1030/550",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/ljig-centar-rajac-cika-duskov-pldom.gpx",
-    "detail_link": "https://pss.rs/terenipp/ljig-centar-rajac-cika-duskov-pl-dom/"
+    "detail_link": "https://pss.rs/terenipp/ljig-centar-rajac-cika-duskov-pl-dom/",
+    "kruzna": false
   },
   {
     "ime": "Suvobor – Divčibare (Pl.dom „Na poljanama“)",
@@ -2307,7 +2516,8 @@
     "visinska_razlika": "790/670",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/suvobor-divcibare-pldom-na-poljanama.gpx",
-    "detail_link": "https://pss.rs/terenipp/suvobor-divcibare-pl-dom-na-poljani/"
+    "detail_link": "https://pss.rs/terenipp/suvobor-divcibare-pl-dom-na-poljani/",
+    "kruzna": false
   },
   {
     "ime": "Slavkovica – Čika Duškov dom na Rajcu",
@@ -2318,7 +2528,8 @@
     "visinska_razlika": "500/130",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/slavkovica-cika-duskov-dom-na-rajcu.gpx",
-    "detail_link": "https://pss.rs/terenipp/slavkovica-cika-duskov-dom-na-rajcu/"
+    "detail_link": "https://pss.rs/terenipp/slavkovica-cika-duskov-dom-na-rajcu/",
+    "kruzna": false
   },
   {
     "ime": "Vrbovac- Đurkov vrh",
@@ -2329,7 +2540,8 @@
     "visinska_razlika": "357/177",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/vrbovac-urkov-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/vrbovac-djurkov-vrh/"
+    "detail_link": "https://pss.rs/terenipp/vrbovac-djurkov-vrh/",
+    "kruzna": false
   },
   {
     "ime": "Tomićeva koliba – Šiljak",
@@ -2340,7 +2552,8 @@
     "visinska_razlika": "746/746",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/tomiceva-koliba-siljak.gpx",
-    "detail_link": "https://pss.rs/terenipp/tomiceva-koliba-siljak/"
+    "detail_link": "https://pss.rs/terenipp/tomiceva-koliba-siljak/",
+    "kruzna": true
   },
   {
     "ime": "Sokobanja – Kulin vrh – Oštra Čuka",
@@ -2351,7 +2564,8 @@
     "visinska_razlika": "834/90",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/sokobanja-kulin-vrh-ostra-cuka.gpx",
-    "detail_link": "https://pss.rs/terenipp/sokobanja-kulin-vrh-ostra-cuka/"
+    "detail_link": "https://pss.rs/terenipp/sokobanja-kulin-vrh-ostra-cuka/",
+    "kruzna": false
   },
   {
     "ime": "Novo Selo – Krst – Radenkovac",
@@ -2362,7 +2576,8 @@
     "visinska_razlika": "372/392",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/novo-selo-krst-radenkovac.gpx",
-    "detail_link": "https://pss.rs/terenipp/novo-selo-krst-radenkovac/"
+    "detail_link": "https://pss.rs/terenipp/novo-selo-krst-radenkovac/",
+    "kruzna": false
   },
   {
     "ime": "Vrmdža (kružna staza)",
@@ -2373,7 +2588,8 @@
     "visinska_razlika": "300/360",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/vrmdza-kruzna-staza.gpx",
-    "detail_link": "https://pss.rs/terenipp/vrmdza-kruzna-staza/"
+    "detail_link": "https://pss.rs/terenipp/vrmdza-kruzna-staza/",
+    "kruzna": false
   },
   {
     "ime": "Sokobanja – Kalinovica – Oštra Čuka",
@@ -2384,7 +2600,8 @@
     "visinska_razlika": "780/47",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/sokobanja-kalinovica-ostra-cuka.gpx",
-    "detail_link": "https://pss.rs/terenipp/sokobanja-kalinovica-ostra-cuka/"
+    "detail_link": "https://pss.rs/terenipp/sokobanja-kalinovica-ostra-cuka/",
+    "kruzna": false
   },
   {
     "ime": "Oštra Čuka- selo Jezero",
@@ -2395,7 +2612,8 @@
     "visinska_razlika": "104/316",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/ostra-cuka-selo-jezero.gpx",
-    "detail_link": "https://pss.rs/terenipp/ostra-cuka-selo-jezero/"
+    "detail_link": "https://pss.rs/terenipp/ostra-cuka-selo-jezero/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 13 „Staza zdravlja“",
@@ -2406,7 +2624,8 @@
     "visinska_razlika": "200/220",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-13-staza-zdravlja.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-13-staza-zdravlja/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-13-staza-zdravlja/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 12 „Sokolica“",
@@ -2417,7 +2636,8 @@
     "visinska_razlika": "673/685",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-12-sokolica.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-12-sokolica/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-12-sokolica/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 10. „Vrh Vlajna 1442“",
@@ -2428,7 +2648,8 @@
     "visinska_razlika": "---",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-10-vrh-vlajna-1442.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-10-vrh-vlajna-1442/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-10-vrh-vlajna-1442/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 9 „Šijanka“",
@@ -2439,7 +2660,8 @@
     "visinska_razlika": "---",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-9-sijanka.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-9-sijanka/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-9-sijanka/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 8 „Markov grad“",
@@ -2450,7 +2672,8 @@
     "visinska_razlika": "969/316",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-8-markov-grad.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-8-markov-grad/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-8-markov-grad/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 6 „Furnište“",
@@ -2461,7 +2684,8 @@
     "visinska_razlika": "833/275",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-6-furniste.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-6-furniste/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-6-furniste/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 3 „Repušnica“",
@@ -2472,7 +2696,8 @@
     "visinska_razlika": "1226/342",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-3-repusnica.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-3-repusnica/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-3-repusnica/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 2 „Krstovski rid“",
@@ -2483,7 +2708,8 @@
     "visinska_razlika": "935/50",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-2-krstovski-rid.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-2-krstovski-rid/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-2-krstovski-rid/",
+    "kruzna": false
   },
   {
     "ime": "Staza br. 1 „Strugara“",
@@ -2494,7 +2720,8 @@
     "visinska_razlika": "1038/153",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/staza-br-1-strugara.gpx",
-    "detail_link": "https://pss.rs/terenipp/staza-br-1-strugara/"
+    "detail_link": "https://pss.rs/terenipp/staza-br-1-strugara/",
+    "kruzna": false
   },
   {
     "ime": "Gudurički vrh preko Lisičije glave",
@@ -2505,7 +2732,8 @@
     "visinska_razlika": "1065/1065",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/guduricki-vrh-preko-lisicije-glave.gpx",
-    "detail_link": "https://pss.rs/terenipp/guduricki-vrh-preko-lisicije-glave/"
+    "detail_link": "https://pss.rs/terenipp/guduricki-vrh-preko-lisicije-glave/",
+    "kruzna": true
   },
   {
     "ime": "Kamenarice  preko Lisič. glave",
@@ -2516,7 +2744,8 @@
     "visinska_razlika": "471/471",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/kamenarice-preko-lisic-glave.gpx",
-    "detail_link": "https://pss.rs/terenipp/kamenarice-preko-lisic-glave/"
+    "detail_link": "https://pss.rs/terenipp/kamenarice-preko-lisic-glave/",
+    "kruzna": true
   },
   {
     "ime": "Uspon na Gudurički vrh",
@@ -2527,7 +2756,8 @@
     "visinska_razlika": "475/475",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/uspon-na-guduricki-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/uspon-na-guduricki-vrh/"
+    "detail_link": "https://pss.rs/terenipp/uspon-na-guduricki-vrh/",
+    "kruzna": true
   },
   {
     "ime": "Manastir Središte – Gudurički vrh",
@@ -2538,7 +2768,8 @@
     "visinska_razlika": "435/435",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/manastir-srediste-guduricki-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/manastir-srediste-guduricki-vrh/"
+    "detail_link": "https://pss.rs/terenipp/manastir-srediste-guduricki-vrh/",
+    "kruzna": true
   },
   {
     "ime": "Manastirska staza",
@@ -2549,7 +2780,8 @@
     "visinska_razlika": "586/641",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/manastirska-staza.gpx",
-    "detail_link": "https://pss.rs/terenipp/manastirska-staza/"
+    "detail_link": "https://pss.rs/terenipp/manastirska-staza/",
+    "kruzna": false
   },
   {
     "ime": "Dići – Pl. dom na Rajcu",
@@ -2560,7 +2792,8 @@
     "visinska_razlika": "700/300",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/dici-pl-dom-na-rajcu.gpx",
-    "detail_link": "https://pss.rs/terenipp/dici-pl-dom-na-rajcu/"
+    "detail_link": "https://pss.rs/terenipp/dici-pl-dom-na-rajcu/",
+    "kruzna": false
   },
   {
     "ime": "Slavkovica – Suvobor (vrh)",
@@ -2571,7 +2804,8 @@
     "visinska_razlika": "740/110",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/slavkovica-suvobor-vrh.gpx",
-    "detail_link": "https://pss.rs/terenipp/slavkovica-suvobor-vrh/"
+    "detail_link": "https://pss.rs/terenipp/slavkovica-suvobor-vrh/",
+    "kruzna": false
   },
   {
     "ime": "Manastir Mesić",
@@ -2582,18 +2816,20 @@
     "visinska_razlika": "50/155",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/manastir-mesic.gpx",
-    "detail_link": "https://pss.rs/terenipp/manastir-mesic/"
+    "detail_link": "https://pss.rs/terenipp/manastir-mesic/",
+    "kruzna": false
   },
   {
     "ime": "Do Vlasinskog jezera se stiže iz pravca Crne Trave ili iz Surdulice. Ovo jezero okružuju planine: Vardenik, Gramada i Čemernik.",
     "izvor": "Staze i Bogaze",
-    "region": "7 - Jugoistočna Srbija"",
+    "region": "7 - Jugoistočna Srbija",
     "planina": "Čemernik i Gramada",
     "duzina": "23 km",
     "visinska_razlika": "760 m",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/do-vlasinskog-jezera-se-stize-iz-pravca-crne-trave-ili-iz-surdulice-ovo-jezero-o.gpx",
-    "detail_link": "https://www.stazeibogaze.info/2011/09/28/gramada-kruzna-tura-vlasina-vrh-vrtop-vlasina-23-km/"
+    "detail_link": "https://www.stazeibogaze.info/2011/09/28/gramada-kruzna-tura-vlasina-vrh-vrtop-vlasina-23-km/",
+    "kruzna": false
   },
   {
     "ime": "1-31-01 Stražilovo-Velika Remeta-Grgeteg-TV toranj",
@@ -2604,7 +2840,8 @@
     "visinska_razlika": "472 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-01-strazilovo-velika-remeta-grgeteg-tv-toranj.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-02 Stražilovo-Hajdučki izvor-Grgeteg đeram",
@@ -2615,7 +2852,8 @@
     "visinska_razlika": "252 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-02-strazilovo-hajducki-izvor-grgeteg-eram.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-03 Grgeteg đeram-Neradin-TV toranj",
@@ -2626,7 +2864,8 @@
     "visinska_razlika": "473 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-03-grgeteg-eram-neradin-tv-toranj.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-04 Petrovaradin-Stražilovo-Plandom Zanatlija",
@@ -2637,7 +2876,8 @@
     "visinska_razlika": "290 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-04-petrovaradin-strazilovo-plandom-zanatlija.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-06 Paragovo okretnica-Glavica-Astal-TV toranj",
@@ -2648,7 +2888,8 @@
     "visinska_razlika": "383 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-06-paragovo-okretnica-glavica-astal-tv-toranj.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-07 Paragovo radionica-Vučji do-TV toranj (istočna)",
@@ -2659,7 +2900,8 @@
     "visinska_razlika": "292 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-07-paragovo-radionica-vucji-do-tv-toranj-istocna.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-08 Paragovo radionica-Vučji do-TV toranj (zapadna)",
@@ -2670,7 +2912,8 @@
     "visinska_razlika": "335 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-08-paragovo-radionica-vucji-do-tv-toranj-zapadna.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-09 Paragovo hangar-Slatine-Spomenik NOB Sloboda",
@@ -2681,7 +2924,8 @@
     "visinska_razlika": "288 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-09-paragovo-hangar-slatine-spomenik-nob-sloboda.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-10 Plandom Vojvodina-Manastiri Hopovo-Spomenik Sloboda",
@@ -2692,7 +2936,8 @@
     "visinska_razlika": "524 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-10-plandom-vojvodina-manastiri-hopovo-spomenik-sloboda.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-11 Paragovo hangar-Crni čot-Spomenik NOB Sloboda",
@@ -2703,7 +2948,8 @@
     "visinska_razlika": "451 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-11-paragovo-hangar-crni-cot-spomenik-nob-sloboda.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-12 Vojinovo-Popovica-Kraljeva stolica",
@@ -2714,7 +2960,8 @@
     "visinska_razlika": "393 m",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-12-vojinovo-popovica-kraljeva-stolica.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-13 Paragovo hangar-Vaga-Izvor Zvečan",
@@ -2725,7 +2972,8 @@
     "visinska_razlika": "147 m",
     "tezina": "Laka",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-13-paragovo-hangar-vaga-izvor-zvecan.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-14 Izvor Zvečan-Plandom Zmajevac",
@@ -2736,7 +2984,8 @@
     "visinska_razlika": "303 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-14-izvor-zvecan-plandom-zmajevac.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-15 Stari Ledinci-Kamenar-Vrdnik",
@@ -2747,7 +2996,8 @@
     "visinska_razlika": "333 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-15-stari-ledinci-kamenar-vrdnik.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-16 Vrdnik-Morintovo-Sanatorijum",
@@ -2758,7 +3008,8 @@
     "visinska_razlika": "425 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-16-vrdnik-morintovo-sanatorijum.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-17 Vrdnik-Ugore-Plandom Zmajevac",
@@ -2769,7 +3020,8 @@
     "visinska_razlika": "225 m",
     "tezina": "Srednje teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-17-vrdnik-ugore-plandom-zmajevac.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-18 Stari Ledinci crkva-Kamenolom-Plandom Zmajevac",
@@ -2780,7 +3032,8 @@
     "visinska_razlika": "378 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-18-stari-ledinci-crkva-kamenolom-plandom-zmajevac.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-19 Rakovac-Salaksije-Manastir Rakovac-Plana-Plandom Zmajevac",
@@ -2791,7 +3044,8 @@
     "visinska_razlika": "469 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-19-rakovac-salaksije-manastir-rakovac-plana-plandom-zmajevac.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-20 Manastir Jazak-Tatarica-Isin čot-Brankovac",
@@ -2802,7 +3056,8 @@
     "visinska_razlika": "446 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-20-manastir-jazak-tatarica-isin-cot-brankovac.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-21 Čerević-Kozje brdo-Osovlje",
@@ -2813,7 +3068,8 @@
     "visinska_razlika": "398 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-21-cerevic-kozje-brdo-osovlje.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-22 Čerević-Katanske livade-Isajlovac-Osovlje",
@@ -2824,7 +3080,8 @@
     "visinska_razlika": "258 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-22-cerevic-katanske-livade-isajlovac-osovlje.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-23 Testera-Isajlovac-Crveni čot",
@@ -2835,7 +3092,8 @@
     "visinska_razlika": "515 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-23-testera-isajlovac-crveni-cot.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-24 Alibegovac-Širine-Popradine-Masna ćupa",
@@ -2846,7 +3104,8 @@
     "visinska_razlika": "404 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-24-alibegovac-sirine-popradine-masna-cupa.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-25 Stari Rakovac-Vađevine-Plandom Zmajevac",
@@ -2857,7 +3116,8 @@
     "visinska_razlika": "418 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-25-stari-rakovac-vaevine-plandom-zmajevac.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-26 Manastir Beočin-Osovlje-Pavlasov čot",
@@ -2868,7 +3128,8 @@
     "visinska_razlika": "369 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-26-manastir-beocin-osovlje-pavlasov-cot.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-27 Stranputica-Gradac-Crveni čot",
@@ -2879,7 +3140,8 @@
     "visinska_razlika": "337 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-27-stranputica-gradac-crveni-cot.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-28 Stari Ledici-Penzionerski izvor-Lazin vir (Izvorska)",
@@ -2890,7 +3152,8 @@
     "visinska_razlika": "236 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-28-stari-ledici-penzionerski-izvor-lazin-vir-izvorska.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "1-31-29 Pavlasov krug",
@@ -2901,7 +3164,8 @@
     "visinska_razlika": "286 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-1-31-29-pavlasov-krug.gpx",
-    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/"
+    "detail_link": "https://psdpostar.org.rs/pregled-nezvanicnog-registra-pesackih-planinarskih-staza-psv/1-31-fruska-gora/staze-sa-tradicionalnom-i-standardnom-markacijom-predvidene-za-revitalizaciju-po-izboru-kpp-psv/",
+    "kruzna": false
   },
   {
     "ime": "Стражилово  Велики кусак – Гребенски пут – Бранков гроб (Стаза здравља Стражилово) _ круг 8км / 305м",
@@ -2912,6 +3176,7 @@
     "visinska_razlika": "261 m",
     "tezina": "Vrlo teška",
     "gpx_file": "https://raw.githubusercontent.com/acamarin11/hiking_map/main/gpx/fg-_-8-305.gpx",
-    "detail_link": "https://npfruskagora.co.rs/%D0%BA%D1%80%D1%83%D0%B6%D0%BD%D0%B5-%D1%82%D1%80%D0%B0%D1%81%D0%B5-%D0%B7%D0%B0-%D0%BF%D0%B5%D1%88%D0%B0%D1%87%D0%B5%D1%9A%D0%B5/"
+    "detail_link": "https://npfruskagora.co.rs/%D0%BA%D1%80%D1%83%D0%B6%D0%BD%D0%B5-%D1%82%D1%80%D0%B0%D1%81%D0%B5-%D0%B7%D0%B0-%D0%BF%D0%B5%D1%88%D0%B0%D1%87%D0%B5%D1%9A%D0%B5/",
+    "kruzna": false
   }
 ]

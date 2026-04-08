@@ -86,11 +86,14 @@ select.flt {
 .route-item.active { background: #0f3460; border-left-color: #4CAF50; }
 .route-name {
   font-size: 12px; font-weight: 600; color: #d0d8e4; margin-bottom: 3px;
+  display: flex; align-items: center; gap: 6px;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
+.route-badge { font-size: 10px; color: #9fd77d; background: rgba(125,215,125,.12); border: 1px solid rgba(125,215,125,.24); border-radius: 8px; padding: 1px 6px; white-space: nowrap; }
 .route-meta { font-size: 11px; color: #5a6a7a; display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .tag { padding: 1px 5px; border-radius: 8px; font-size: 10px; font-weight: 600; }
 .tag-src { background: #1a2a4a; color: #5b9bd5; }
+.tag-kruzna { background: rgba(125, 215, 125, 0.12); color: #9fd77d; border: 1px solid rgba(125, 215, 125, 0.24); }
 .no-results { padding: 20px; text-align: center; color: #5a6a7a; font-size: 12px; }
 
 /* ═══════ MAP ═══════ */
@@ -115,7 +118,8 @@ select.flt {
   border: 1px solid #0f3460; font-family: 'Segoe UI', sans-serif; min-width: 210px;
 }
 .leaflet-popup-tip { background: #16213e; }
-.popup-title  { font-weight: 700; font-size: 13px; margin-bottom: 7px; color: #fff; }
+.popup-title  { font-weight: 700; font-size: 13px; margin-bottom: 7px; color: #fff; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.popup-kruzna { font-size: 11px; color: #9fd77d; background: rgba(125,215,125,.12); border: 1px solid rgba(125,215,125,.24); border-radius: 8px; padding: 2px 6px; }
 .popup-row    { font-size: 11px; margin-bottom: 3px; color: #8892a4; }
 .popup-row span { color: #d0d8e4; }
 .popup-links  { margin-top: 8px; display: flex; gap: 7px; flex-wrap: wrap; }
@@ -190,6 +194,13 @@ select.flt {
     <div class="filter-label">Izvor</div>
     <select class="flt" id="flt-izvor" onchange="applyFilters()">
       <option value="">Svi izvori</option>
+    </select>
+
+    <div class="filter-label">Kružna</div>
+    <select class="flt" id="flt-kruzna" onchange="applyFilters()">
+      <option value="">Sve</option>
+      <option value="true">Da</option>
+      <option value="false">Ne</option>
     </select>
 
     <div class="filter-label">Težina</div>
@@ -269,6 +280,7 @@ fetch("routes.json")
       tezina:           String(r.tezina           || "—"),
       gpx_file:         String(r.gpx_file         || ""),
       detail_link:      String(r.detail_link      || ""),
+      kruzna:           Boolean(r.kruzna),
     }));
     polylines = new Array(allRoutes.length).fill(null);
     buildFilters();
@@ -329,6 +341,7 @@ function applyFilters(zoomToResults = false) {
   const region  = document.getElementById("flt-region").value;
   const planina = document.getElementById("flt-planina").value;
   const izvor   = document.getElementById("flt-izvor").value;
+  const kruzna  = document.getElementById("flt-kruzna").value;
   const maxLen  = +document.getElementById("len-slider").value;
 
   filteredIdxs = [];
@@ -337,6 +350,7 @@ function applyFilters(zoomToResults = false) {
     if (region  && r.region  !== region)                  return;
     if (planina && r.planina !== planina)                  return;
     if (izvor   && r.izvor   !== izvor)                   return;
+    if (kruzna  && String(r.kruzna) !== kruzna)           return;
     if (!activeDiffs.has(r.tezina))                       return;
     if (maxLen < 100) {
       const km = parseFloat(r.duzina);
@@ -450,11 +464,15 @@ function showPopup(route, latlng) {
     route.detail_link ? `<a class="popup-link detail"  href="${escHtml(route.detail_link)}" target="_blank">🔗 Detalji</a>` : "",
   ].filter(Boolean).join("");
   L.popup({ maxWidth: 270 }).setLatLng(latlng).setContent(`
-    <div class="popup-title">${escHtml(route.ime)||"(bez naziva)"}</div>
+    <div class="popup-title">
+      ${escHtml(route.ime)||"(bez naziva)"}
+      <span class="popup-kruzna">${route.kruzna ? "🔁 Da" : "○ Ne"}</span>
+    </div>
     ${route.region           ? `<div class="popup-row">📍 Region: <span>${escHtml(route.region)}</span></div>` : ""}
     ${route.planina          ? `<div class="popup-row">⛰ Planina: <span>${escHtml(route.planina)}</span></div>` : ""}
     ${route.duzina           ? `<div class="popup-row">📏 Dužina: <span>${escHtml(route.duzina)}</span></div>` : ""}
     ${route.visinska_razlika ? `<div class="popup-row">⬆ Uspon: <span>${escHtml(route.visinska_razlika)}</span></div>` : ""}
+    <div class="popup-row">🔁 Kružna: <span>${route.kruzna ? "Da" : "Ne"}</span></div>
     <div class="popup-row">🎯 Težina: <span style="color:${c};font-weight:600">${escHtml(route.tezina)}</span></div>
     <div class="popup-row">📂 Izvor: <span>${escHtml(route.izvor)}</span></div>
     ${links ? `<div class="popup-links">${links}</div>` : ""}
@@ -474,10 +492,14 @@ function renderList() {
     const src = escHtml(r.izvor || "");
     return `<div class="route-item${gi === selectedIdx ? " active" : ""}" id="item-${li}"
                  onclick="selectRoute(${gi})">
-      <div class="route-name" title="${escHtml(r.ime)}">${escHtml(r.ime)||"(bez naziva)"}</div>
+      <div class="route-name" title="${escHtml(r.ime)}">
+        ${escHtml(r.ime)||"(bez naziva)"}
+        ${r.kruzna ? `<span class="route-badge">🔁 Da</span>` : ""}
+      </div>
       <div class="route-meta">
         ${r.duzina           ? `<span>📏 ${escHtml(r.duzina)}</span>` : ""}
         ${r.visinska_razlika ? `<span>⬆ ${escHtml(r.visinska_razlika)}</span>` : ""}
+        ${r.kruzna ? `<span class="tag tag-kruzna">● Da</span>` : ""}
         <span class="tag" style="background:${cl}22;color:${cl};border:1px solid ${cl}44">${escHtml(r.tezina)}</span>
         <span class="tag tag-src">${src}</span>
       </div>
